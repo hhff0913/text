@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*头部*/
+.head{
+    background: black;
+    color: white;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+/*楼层列表*/
+.lc{
+    background: #8ba0ad;
+    color: white;
+    height: 50px;
+}
+.lc>span{
+    display: inline-block;
+    height: 50px;
+    width: 120px;
+    text-align: center;
+    line-height: 50px;
+    overflow: hidden;
+
+}
+/*选中的背景*/
+.lc>.open{
+    background: #cdcdcd;
+}
+/*餐台*/
+.table{
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    background: #eaeaea;
+    border: solid black 1px;
+    border-radius: 8px;
+    margin: 5px;
+    overflow: hidden;
+}
+.tablebox>.openta{
+    background: burlywood;
+}
+.tablebox>.openda{
+    background: green;
+}
+.tablebox>.table>div{
+    height: 30px;
+    text-align: center;
+}
+.tablebox>.table>.jq{
+    text-align: left;
+    color: red;
+    font-size: 14px;
+    margin-left: 10px;
+}
+.tablebox>.table>.time{
+    text-align: left;
+    margin-left: 10px;
+}
