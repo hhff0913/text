@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    var arr = [];
+    // "jd201903111419","jd201903111420","jd201903111430"
+    // 往后追加数据
+    arr.push('jd201903111419')
+    arr.push('jd201903111420')
+    arr.push('jd201903111430')
+    // 向前加数据
+    arr.unshift('aaaaabbbbb')
+    /*
+    // 从前面删除
+    arr.shift()
+    arr.shift()
+    // 从后面删除
+    arr.pop();
+    */
+    arr.splice(1,2,'8888')  // 1表示索引位置（从0开始），2：表示删除几个项 , '8888',表示要加入的项
+     console.log(arr)
+
+
+</script>
+
+</body>
+</html>

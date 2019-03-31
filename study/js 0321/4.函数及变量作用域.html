@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    var x  = 100;   //全局变量
+    function add( a ,b ) {
+      var c = a+ b+x;
+      var d = 50;   //局部变量
+
+      console.log(d)
+    }
+    add();
+    alert(d);  //在函数外部无法访问
+</script>
+
+</body>
+</html>

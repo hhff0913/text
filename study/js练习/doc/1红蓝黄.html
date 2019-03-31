@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div {
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+
+</head>
+<body>
+<input type="button" value="红色"><input type="button" value="蓝色"><input type="button" value="绿色">
+<div ></div>
+<script>
+    var div=document.getElementsByTagName('div')[0];
+    var input=document.getElementsByTagName('input');
+    input[0].onclick=function () {
+        div.style.background='red '
+    };
+    input[1].onclick=function () {
+        div.style.background='blue '
+    };
+    input[2].onclick=function(){
+        div.style.background='green '
+    }
+</script>
+</body>
+</html>

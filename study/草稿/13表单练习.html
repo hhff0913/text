@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            width: 960px;
+            height: 560px;
+            border: solid lightblue 1px;
+        }
+        h4{
+            background: silver;
+        }
+        div ul li{
+            padding-left: 200px;
+            text-align: left;
+            margin: 20px;
+            list-style: none;
+        }
+        .box{
+            background: red;
+            color: white;
+            border: red ;
+            width: 280px;
+            height: 30px;
+        }
+        h3{
+            background: silver;
+            padding-left: 40px;
+            font-weight: normal;
+            height: 30px;
+            font-size:16px ;
+            line-height: 30px;
+
+        }
+        .top{
+            text-indent: 2em;
+        }
+        .boss{
+            text-indent: 6em;
+        }
+        .c{
+            padding-left: 160px;
+        }
+        .cc ul li{
+            text-indent: 1em;
+
+        }
+    </style>
+</head>
+<body>
+<h4>用户信息</h4>
+<div>
+    <ul>
+        <li class="top">用户名：<input type="text"></li>
+        <li>请设置密码：<input type="password"></li>
+        <li>请确认密码：<input type="password"></li>
+    </ul>
+</div>
+<h4>公司信息</h4>
+<div class="cc">
+    <ul>
+        <li>公司名称：<input type="text"></li>
+        <li>公司地址：<input type="text"></li>
+        <li class="c">购买类型/用途:
+            <input type="checkbox">IT设备数码<input type="checkbox">通讯
+            <input type="checkbox">办公用品耗材<input type="checkbox">大家电
+            <input type="checkbox">项目合作-政府采办<input type="checkbox">购礼品商旅（机票/酒店等）
+        </li>
+        <li>企业人数:
+            <select>
+                <option value="">请选择</option>
+                <option value="">1</option>
+                <option value="">2</option>
+            </select>
+        </li>
+        <li>公司性质:
+            <select>
+                <option value="">请选择</option>
+                <option value="">国有</option>
+                <option value="">私人</option>
+            </select>
+        </li>
+    </ul>
+</div>
+<h3>联系人信息</h3>
+<div>
+    <ul>
+        <li>联系人姓名：<input type="text"></li>
+        <li class="boss" ><input class="box" type="button" value="立即注册"></li>
+    </ul>
+</div>
+
+</body>
+</html>

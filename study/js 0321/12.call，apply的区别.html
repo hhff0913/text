@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var msg = '这两数之和是'
+    function add( a , b) {
+      alert(this.msg + ":" + (a+b) );
+    }
+
+    add(10,50);
+
+    var obj = {
+      msg: '他们俩之和是 '
+    }
+
+    add.call(obj, 50, 80);
+    add.apply(obj, [300,500] )   // array
+
+
+
+</script>
+
+</body>
+</html>

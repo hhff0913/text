@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="icon" type="image/icon-x" href="images/logo.png">
+    <title>Position(定位)</title>
+    <style type="text/css">
+        *{margin: 0px;padding: 0px;}
+        body{background: url(images/2.jpg) no-repeat right top;font-family: 楷体;}
+        /*CSS中的定位(Position)属性允许你对元素进行定位*/
+        /*absolute 定位:
+        相对定位元素经常被用来作为绝对定位元素的容器块
+        绝对定位的元素的位置相对于最近的已定位父元素，如果元素没有已定位的父元素，那么它的位置相对于出始包含块
+        特点：绝对定位使元素的位置与文档流无关，因此不占据空间*/
+        /*z-index 属性设置元素的堆叠顺序 Z-index 仅能在定位元素上奏效*/
+        .one{width: 150px;height: 100px;background:#F7F708;position: absolute;top: 50px;right: 50px;}
+        .two{width: 200px;height: 150px;background:#Ff6500;position: relative;top: 30px;left: 50px;z-index: -1;}
+        .three{width:100px;height: 150px;background:#48F708;position: absolute;top: 50px;left: 200px;z-index: -1;}
+
+
+
+    </style>
+</head>
+<body>
+<div class="one"></div>
+<div class="two">
+    <div class="three"></div>
+</div>
+<h1>相对定位元素经常被用来作为绝对定位元素的容器块</h1>
+
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input id="all" type="button" value="全选"><input id="no" type="button" value="不选"><input id="fx" type="button" value="反选">
+<p>
+    <p><input name="xz" type="checkbox"></p>
+    <p><input name="xz" type="checkbox"></p>
+    <p><input name="xz" type="checkbox"></p>
+    <p><input name="xz" type="checkbox"></p>
+    <p><input name="xz" type="checkbox"></p>
+    <p><input name="xz" type="checkbox"></p>
+    <p><input name="xz" type="checkbox"></p>
+    <p><input name="xz" type="checkbox"></p>
+    <p><input name="xz" type="checkbox"></p>
+    <p><input name="xz" type="checkbox"></p>
+</p>
+
+<script>
+    var all = document.getElementById('all');
+    var no = document.getElementById('no');
+    var fx = document.getElementById('fx')
+    //所有复选框
+    var xz = document.getElementsByName('xz');
+
+    all.onclick = function () {
+      for(var i=0;i <xz.length; i++) {
+        xz[i].checked = true;
+      }
+    }
+    no.onclick= function () {
+      for(var i=0;i <xz.length; i++) {
+        xz[i].checked = false;
+      }
+    }
+
+    fx.onclick = function () {
+      for(var i=0;i <xz.length; i++) {
+         if (xz[i].checked  === true) {
+           xz[i].checked = false
+         } else {
+           xz[i].checked = true;
+         }
+      }
+    }
+
+</script>
+
+</body>
+</html>

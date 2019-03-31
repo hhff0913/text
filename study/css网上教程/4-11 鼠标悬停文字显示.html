@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="icon" type="image/icon-x" href="images/logo.png">
+    <title>鼠标悬停文字显示</title>
+    <meta charset="utf-8" />
+    <style type="text/css">
+        *{margin: 0;padding: 0;}
+        div{margin: 30px auto;width: 500px;}
+        div p{text-align: justify;text-indent: 2em;width: 500px;
+            white-space: nowrap;/*规定段落中的文本不进行换行*/
+            overflow: hidden;
+            text-overflow: ellipsis;/*文本溢出包含元素时发生的事情*/
+            margin-top: -25px;
+            color: #fff;
+            transition: margin-top 10s;
+        }
+        div p:hover{
+            margin-top: -125px;
+            white-space: inherit;
+            text-overflow:inherit;
+            overflow: visible;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <img src="images/8.jpg">
+    <p>取得成功意味着你正在不断地突破极限，这种极限既包括内部的也包括外部的。你永远也不允许自己止步不前。你永远都不会放弃或者屈服。你不断地过着你内心相信的那种生活，无论别人怎么讲，也不管你过去发生了什么事。</p>
+</div>
+</body>
+</html>

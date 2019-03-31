@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div {
+            width:300px;
+            height:300px;
+            border:solid 5px red;
+        }
+        p {
+            width:200px;
+            height:100px;
+            background: orange;
+        }
+    </style>
+</head>
+<body>
+
+<div id="parent">父元素
+    <p id="child">子元素</p>
+</div>
+<input type="button" value="替换">
+<script>
+    var button = document.getElementsByTagName('input')[0];
+
+    button.onclick = function() {
+      // replaceChild
+      //1 获取父元素
+      var parent = document.getElementById('parent')
+      //2 获取子元素
+      var child = document.getElementById('child')
+      //3 创建一个新的子元素
+      var span = document.createElement('span');
+      span.innerText = '我是新的子元素'
+      //4 替换子元素
+//      父.替换（新儿子，旧儿子）
+      parent.replaceChild(span, child);
+    }
+</script>
+
+</body>
+</html>

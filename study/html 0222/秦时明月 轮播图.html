@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .slide{
+            width: 800px;
+            height:450px;
+            margin: 0 auto;
+            position: relative;
+        }
+        .left {
+            width: 60px;
+            height:60px;
+            background: #666;
+            position: absolute;
+            left: 0px;
+            top: 50%;
+            color:white;
+            font-size: 36px;
+            text-align: center;
+            line-height: 60px;
+            margin-top:-30px;
+            cursor: pointer;
+        }
+        .right {
+            width: 60px;
+            height:60px;
+            background: #666;
+            position: absolute;
+            right: 0px;
+            top: 50%;
+            color:white;
+            font-size: 36px;
+            text-align: center;
+            line-height: 60px;
+            margin-top:-30px;
+            cursor: pointer;
+        }
+        ul {
+            position:absolute;
+            right: 20px;
+            bottom: 20px;
+            list-style: none;
+        }
+        ul li {
+            display: inline-block;
+            width: 60px;
+            height:60px;
+            background: #ccc;
+            text-align: center;
+            line-height: 60px;
+            font-size: 36px;
+            color: blue;
+            border-radius: 30px;
+        }
+        .bg {
+            background: lightsalmon;
+        }
+    </style>
+</head>
+<body>
+
+<div class="slide">
+    <img src="img/1.jpg" alt="">
+    <span class="left">&lt;</span>
+    <span class="right">&gt;</span>
+    <ul>
+        <li class="bg">1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+    </ul>
+</div>
+<script>
+    var left = document.getElementsByClassName('left')[0];
+    var right = document.getElementsByClassName('right')[0];
+    var img = document.getElementsByTagName('img')[0];
+    var lis = document.getElementsByTagName('li');
+
+    var i = 1 ;
+
+    // 给li加鼠标移入事件
+    for( var m = 0 ;m < lis.length ; m++ ){
+      lis[m].onmouseover = function () {
+        // 清除原本的红色高亮背景
+        for ( var n = 0 ;n < lis.length ; n++) {
+          lis[n].className = '';
+        }
+        // 当前的标签li加上高亮背景
+        this.className = 'bg';
+        // 改变i
+        i = this.innerText;
+
+        // 改变图片
+        img.src = "img/"+ i + '.jpg';
+      }
+    }
+
+    left.onclick = function () {
+      // 执行
+      i-- ;   // i = i - 1;
+      if ( i <= 0) {
+        i = 5;
+      }
+      // 修改图片路径
+      img.src = "img/"+ i + ".jpg";
+      //改变圆圈的背景
+      for (var j = 0 ; j < lis.length ; j++ ) {
+        if (j == i-1) {
+          lis[j].className = 'bg';
+        } else {
+          lis[j].className = '';
+        }
+      }
+    }
+    right.onclick = function () {
+      // 执行。。。
+       i++ ;
+       if ( i > 5 ) {
+         i = 1;
+       }
+      // 修改图片路径
+      img.src = "img/"+ i + ".jpg";
+      //改变圆圈的背景
+      for (var j = 0 ; j < lis.length ; j++ ) {
+        if (j == i-1) {
+          lis[j].className = 'bg';
+        } else {
+          lis[j].className = '';
+        }
+      }
+    }
+</script>
+</body>
+</html>

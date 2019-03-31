@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div {
+            width:300px;
+            height:300px;
+            border:solid 1px red;
+        }
+    </style>
+</head>
+<body>
+<div>绑定事件</div>
+
+<script>
+    var div = document.getElementsByTagName('div')[0];
+    div.onclick = function () {
+      alert( 32413241324)
+    }
+    //鼠标移入事件
+    div.onmouseover = function () {
+      div.style.background = 'blue'
+    }
+    //鼠标移出事件
+    div.onmouseout = function () {
+      div.style.background = ''
+    }
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,9 @@
+1.函数： 无参参数，有参函数，有返回值
+2.闭包：
+3.函数中的this:
+4.改变函数中的this:call,apply,bind
+5.数字的用法
+6.字符符串的用法：replace,substring,substr,indexOf,charAt[index]
+7.new Date() 创建日期
+
+

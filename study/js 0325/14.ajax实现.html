@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div>账号：<input type="text" id="user"></div>
+<div>密码：<input type="text" id="pwd"></div>
+<div>
+    <input type="button" id="post" value="登录">
+</div>
+
+<script>
+    
+    var post = document.getElementById('post');
+    post.onclick = function () {
+      // 获取账号值
+      var memberId = document.getElementById('user').value ;
+      // 获取密码值
+      var password = document.getElementById('pwd').value;
+
+      // 执行ajax请求（发送账号和密码给后端接口）
+      // 点餐登录接口
+      var xhr = new XMLHttpRequest() ;   //
+      // 登录的后端接口地址
+      xhr.open('post','http://39.108.162.36:8083/CateringSystem1.0/recruitment/catering/login.do?method=login');
+      // 设置请求头的内容类型信息（和后端配合）
+      xhr.setRequestHeader('Content-Type','application/x-www-form-urlencoded');
+      // 发送数据给后端
+      xhr.send('memberId='+ memberId +'&password='+ password );   // 字符串连接
+
+
+      // 获取请求的状态
+      xhr.onreadystatechange = function(){
+        if (xhr.readyState ===4 && xhr.status === 200) {
+          // 请求成功之后的数据
+          var text = xhr.responseText;
+          //debugger
+          var json = JSON.parse(text);
+          console.log(json)
+          // 判断是否登录成功(根据返回的memberId或memberName不为空)
+          if (json.responseBody.memberId !='') {
+            // 登录成功
+            // alert('恭喜你，登录成功了')
+            // 跳转到另一个页面 （打开另一个页面）
+            //location.href = '2table.html'
+            location.href= '../0322/menu.html'  ; // 相对路径
+            location.href = 'http://localhost:63342/LW1901/0322/menu.html' ;   //绝对路径
+          } else {
+            alert('登录失败了！')
+          }
+        }
+      }
+
+    }
+    
+    
+    
+    
+
+
+
+
+</script>
+
+</body>
+</html>

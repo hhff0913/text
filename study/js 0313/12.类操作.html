@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .box {
+            width: 300px;
+            height:300px;
+            border:solid 5px red;
+            color:blue;
+            text-align: center;
+            line-height:300px;
+        }
+        .font {
+            font-size:60px;
+            font-style: italic;
+            background: orange;
+        }
+    </style>
+
+</head>
+<body>
+<div>盒子</div>
+<input type="button" value="添加类"><input type="button" value="删除类"> <input type="button" value="再加类名">
+
+<script>
+    var box = document.getElementsByTagName('div')[0];
+    var input = document.getElementsByTagName('input');
+
+    input[0].onclick = function () {
+      box.className = 'box'
+    }
+    input[1].onclick = function () {
+      box.className = ''
+    }
+
+    input[2].onclick = function () {
+      box.classList.add('font');
+    }
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="icon" type="image/icon-x" href="images/logo.png">
+    <title>块级、行内、行内块元素相互转换</title>
+    <style type="text/css">
+        *{margin: 0px;padding: 0px;}
+        body{background: url(images/5.jpg) no-repeat right top;font-family: 楷体;}
+        /* 块级元素：能够识别宽高，独占一行，多个块状元素标签写在一起，默认排列方式为从上至下*/
+        h1,h2,p,div{background: #ccc;}
+        div{height:100px;width: 400px;}
+        p{width: 600px;}
+        /*行内元素:设置宽高无效,对margin仅设置左右方向有效，上下无效,不会自动进行换行*/
+        span{height: 300px;background: pink;width: 400px;margin-right: 30px;margin-left: 30px;margin-top: 40px;/*padding:30px;*/display:block ;}
+        /*行内块状元素:行内块状元素综合了行内元素和块状元素的特性，但是各有取舍、不自动换行 能够识别宽高*/
+        img{width: 100px;height: 100px;}
+        /*display 属性规定元素应该生成的框的类型*/
+        /*display:inline;转换为行内元素*/
+        h1{display: inline;height:100px;width: 400px;}
+        /*display:block;转换为块状元素*/
+
+        /*display:inline-block;转换为行内块状元素*/
+        h2{display: inline-block;height: 50px;width: 300px;}
+        b{display:inline-block; height: 50px;width: 300px;background: red;}
+
+    </style>
+</head>
+<body>
+<h1>块级元素</h1>
+<h1>块级元素</h1>
+<br>
+<h2>块级元素</h2>
+<h2>块级元素</h2>
+<h2>块级元素</h2>
+<br>
+<br>
+<p>块级元素</p>
+<br>
+<div>块级元素</div>
+<span>行内元素</span>
+<b>行内元素</b>
+<i>行内元素</i>
+
+<br>
+<img src="images/8.jpg"><img src="images/8.jpg"><img src="images/8.jpg">
+</body>
+</html>

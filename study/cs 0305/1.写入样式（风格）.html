@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        /*
+            样式注释
+            选择器 {
+               样式属性： 值;
+               样式属性： 值;
+            }
+         */
+
+        /* 1、标签选择器 */
+        p {
+            color: red;
+        }
+        div {
+            color: blue;
+        }
+        /* 2、类名选择器 */
+        .mybox {
+            color: yellow;
+        }
+        .pbox {
+            /* 边框  solid 实线  ， dashed 虚线  */
+            border: solid 5px brown;
+        }
+        /* 3、id选择器 */
+        #hbox {
+            color: orange;
+            border: dashed 3px red;
+        }
+        /* 4. 通配符选择器 */
+        * {
+            background: lightblue;   /* background 背景色 */
+        }
+
+    </style>
+</head>
+<body>
+<!--  标签注释 -->
+<div>我要看div风格后的样式</div>
+
+<p class="pbox">p标签的样式</p>
+
+<h1 class="mybox">h1标题的样式</h1>
+
+<h2 id="hbox">我们看id选择器</h2>
+
+</body>
+</html>

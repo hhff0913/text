@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .box {
+
+            border:solid 2px blue;
+            /*第一，加高度解决因浮动产生的错位 */
+            /*height: 220px;*/
+        }
+        .box:after {
+            /* 伪类解决浮动问题 */
+            content: '';
+            display: block;
+            visibility: hidden;
+            height:0px;
+            clear:both;
+        }
+        div {
+            border: solid 5px red;
+        }
+        .left {
+            width: 600px;
+            height:200px;
+            float: left;
+        }
+        .right{
+            width: 600px;
+            height:200px;
+            float: right
+        }
+        .bottom {
+            border:solid 5px cyan;
+        }
+    </style>
+</head>
+<body>
+
+<div class="box">
+    <div class="left">左边盒子</div>
+    <div class="right">右边盒子</div>
+</div>
+<div class="bottom">
+    我是下面的盒子
+</div>
+
+</body>
+</html>

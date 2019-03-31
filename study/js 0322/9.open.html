@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<a href="6.定时器.html" target="_blank">打开一个网页</a>
+<br>
+<input id="first" type="button" value="打开一个网页">
+<br>
+<input id="second" type="button" value="open一个网页">
+
+<script>
+    var first = document.getElementById('first');
+    first.onclick = function () {
+      location.href = '1.数组的使用.html'
+    }
+
+    var second = document.getElementById('second');
+    second.onclick =function () {
+      window.open('2.常用数学方法.html','','width=480;height=300')
+    }
+
+</script>
+
+</body>
+</html>

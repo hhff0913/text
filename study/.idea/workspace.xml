@@ -1,0 +1,870 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9ed2280f-6c46-4637-9ab4-ce2264767f6a" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="表格合并练习">
+      <favorite_root url="file://$PROJECT_DIR$/20190216_2/10.作业.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+    </favorites_list>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="1home.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/diancan练习/1home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="13" column="28" lean-forward="false" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="御龙轮播图.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js练习/轮播图/img/御龙轮播图.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="395">
+              <caret line="138" column="7" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="138" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cookie.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/diancan练习/js/cookie.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="3guest.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/diancan练习/js/3guest.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1269">
+              <caret line="49" column="46" lean-forward="false" selection-start-line="49" selection-start-column="46" selection-end-line="49" selection-end-column="46" />
+              <folding>
+                <element signature="e#0#40#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/js 0321/12.call，apply的区别.html" />
+        <option value="$PROJECT_DIR$/js 0321/10.对象里的this.html" />
+        <option value="$PROJECT_DIR$/js练习/轮播图/轮播图.html" />
+        <option value="$PROJECT_DIR$/js练习/doc/4四大才子.html" />
+        <option value="$PROJECT_DIR$/js练习/轮播图/img/1.html" />
+        <option value="$PROJECT_DIR$/js 0321/3.有返回值的函数.html" />
+        <option value="$PROJECT_DIR$/js 0322/1.数组的使用.html" />
+        <option value="$PROJECT_DIR$/js 0322/2.常用数学方法.html" />
+        <option value="$PROJECT_DIR$/草稿/20.html" />
+        <option value="$PROJECT_DIR$/草稿/21.html" />
+        <option value="$PROJECT_DIR$/js 0322/3.随机数.html" />
+        <option value="$PROJECT_DIR$/草稿/22.html" />
+        <option value="$PROJECT_DIR$/js练习/5/3.html" />
+        <option value="$PROJECT_DIR$/js练习/5/5.html" />
+        <option value="$PROJECT_DIR$/js练习/5/2 55-280的随机数.html" />
+        <option value="$PROJECT_DIR$/js 0321/15.字符串.html" />
+        <option value="$PROJECT_DIR$/js 0322/5.设置或获取cookie.html" />
+        <option value="$PROJECT_DIR$/js 0322/4.其它数学方法.html" />
+        <option value="$PROJECT_DIR$/js练习/5/4 加速移动.html" />
+        <option value="$PROJECT_DIR$/js练习/5/3 匀速移动.html" />
+        <option value="$PROJECT_DIR$/js 0318/5.城市三级联动练习.html" />
+        <option value="$PROJECT_DIR$/js练习/5/7.html" />
+        <option value="$PROJECT_DIR$/js练习/轮播图/重做轮播图.html" />
+        <option value="$PROJECT_DIR$/js练习/轮播图/img/御龙轮播图.html" />
+        <option value="$PROJECT_DIR$/js 0325/15.html" />
+        <option value="$PROJECT_DIR$/js练习/5/1转换二维数组.html" />
+        <option value="$PROJECT_DIR$/js 0325/14.ajax实现.html" />
+        <option value="$PROJECT_DIR$/diancan/css/head.js" />
+        <option value="$PROJECT_DIR$/diancan/css/home.js" />
+        <option value="$PROJECT_DIR$/diancan/1.html" />
+        <option value="$PROJECT_DIR$/diancan/1登录页面.html" />
+        <option value="$PROJECT_DIR$/diancan/css/home.css" />
+        <option value="$PROJECT_DIR$/diancan/table.html" />
+        <option value="$PROJECT_DIR$/diancan/js/home.js" />
+        <option value="$PROJECT_DIR$/js练习/5/8.html" />
+        <option value="E:/Documents/Tencent Files/954257677/FileRecv/diancan/js/index.js" />
+        <option value="$PROJECT_DIR$/diancan练习/js/home.js" />
+        <option value="$PROJECT_DIR$/diancan练习/1home.html" />
+        <option value="$PROJECT_DIR$/diancan练习/css/1home.css" />
+        <option value="$PROJECT_DIR$/diancan练习/js/3.js" />
+        <option value="$PROJECT_DIR$/diancan练习/3.html" />
+        <option value="$PROJECT_DIR$/diancan练习/css/2table.css" />
+        <option value="$PROJECT_DIR$/diancan练习/css/3guest.css" />
+        <option value="$PROJECT_DIR$/diancan练习/3guest.html" />
+        <option value="$PROJECT_DIR$/diancan练习/js/1home.js" />
+        <option value="$PROJECT_DIR$/diancan练习/2table.html" />
+        <option value="$PROJECT_DIR$/diancan练习/js/3guest.js" />
+        <option value="$PROJECT_DIR$/diancan练习/js/2table.js" />
+        <option value="$PROJECT_DIR$/diancan练习/5.html" />
+        <option value="$PROJECT_DIR$/diancan练习/4.html" />
+        <option value="$PROJECT_DIR$/diancan练习/js/cookie.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="754" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers ProjectPane="true" />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="study" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="study" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="last_opened_file_path" value="D:/Git/git-bash.exe" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;null&#9;null" />
+    <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\study\diancan练习\js" />
+      <recent name="E:\study\js 0326" />
+      <recent name="E:\study\js 0326\diancan" />
+      <recent name="E:\study\js 0325" />
+      <recent name="E:\study" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\study\js练习\5" />
+      <recent name="E:\study\js练习" />
+      <recent name="E:\study\js 0318\img" />
+      <recent name="E:\study" />
+      <recent name="E:\study\js练习\数组" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.9.html">
+    <configuration default="false" name="" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <configuration default="false" name="9.html" type="JavascriptDebugType" factoryName="JavaScript Debug" nameIsGenerated="true" uri="http://localhost:63342/study/20190220_2/9.html">
+      <method />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.9.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug." />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug." />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9ed2280f-6c46-4637-9ab4-ce2264767f6a" name="Default" comment="" />
+      <created>1550460309066</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1550460309066</updated>
+      <workItem from="1550460315261" duration="1401000" />
+      <workItem from="1550461954827" duration="970000" />
+      <workItem from="1550466154056" duration="300000" />
+      <workItem from="1550466505081" duration="153000" />
+      <workItem from="1550467161865" duration="736000" />
+      <workItem from="1550467937380" duration="148000" />
+      <workItem from="1550468116966" duration="13163000" />
+      <workItem from="1550484132378" duration="1071000" />
+      <workItem from="1550494509912" duration="310000" />
+      <workItem from="1550537541092" duration="115000" />
+      <workItem from="1550537772308" duration="1678000" />
+      <workItem from="1550543066617" duration="17055000" />
+      <workItem from="1550623818007" duration="3930000" />
+      <workItem from="1550629200220" duration="802000" />
+      <workItem from="1550630053091" duration="4933000" />
+      <workItem from="1550643500177" duration="2463000" />
+      <workItem from="1550646010053" duration="1866000" />
+      <workItem from="1550648498873" duration="4864000" />
+      <workItem from="1550710054726" duration="6436000" />
+      <workItem from="1550728338703" duration="989000" />
+      <workItem from="1550729661061" duration="6035000" />
+      <workItem from="1550795987524" duration="2884000" />
+      <workItem from="1550798923500" duration="2175000" />
+      <workItem from="1550807749033" duration="598000" />
+      <workItem from="1550812882186" duration="310000" />
+      <workItem from="1550813226910" duration="12000" />
+      <workItem from="1550813328362" duration="4830000" />
+      <workItem from="1550821830394" duration="10600000" />
+      <workItem from="1550883122573" duration="6860000" />
+      <workItem from="1550894551710" duration="3170000" />
+      <workItem from="1550899196697" duration="557000" />
+      <workItem from="1550900327520" duration="1039000" />
+      <workItem from="1550905096324" duration="4486000" />
+      <workItem from="1550909633967" duration="592000" />
+      <workItem from="1550910263324" duration="760000" />
+      <workItem from="1550911055663" duration="33000" />
+      <workItem from="1550911245987" duration="673000" />
+      <workItem from="1551003417006" duration="2874000" />
+      <workItem from="1551007440220" duration="478000" />
+      <workItem from="1551056095817" duration="156000" />
+      <workItem from="1551056279360" duration="2639000" />
+      <workItem from="1551061416295" duration="22000" />
+      <workItem from="1551061466302" duration="12867000" />
+      <workItem from="1551077399330" duration="1660000" />
+      <workItem from="1551080159129" duration="6295000" />
+      <workItem from="1551088187489" duration="1920000" />
+      <workItem from="1551093659106" duration="344000" />
+      <workItem from="1551141905564" duration="4402000" />
+      <workItem from="1551151151825" duration="13003000" />
+      <workItem from="1551171091313" duration="972000" />
+      <workItem from="1551172381828" duration="6015000" />
+      <workItem from="1551228462726" duration="3700000" />
+      <workItem from="1551234456407" duration="6266000" />
+      <workItem from="1551249356510" duration="14446000" />
+      <workItem from="1551315304136" duration="20199000" />
+      <workItem from="1551346942797" duration="65000" />
+      <workItem from="1551347044964" duration="75000" />
+      <workItem from="1551400718686" duration="9328000" />
+      <workItem from="1551418182579" duration="8983000" />
+      <workItem from="1551427711216" duration="1285000" />
+      <workItem from="1551430100774" duration="2141000" />
+      <workItem from="1551445969789" duration="32000" />
+      <workItem from="1551447333236" duration="31000" />
+      <workItem from="1551450494518" duration="34000" />
+      <workItem from="1551451202881" duration="705000" />
+      <workItem from="1551487923180" duration="41000" />
+      <workItem from="1551488200936" duration="799000" />
+      <workItem from="1551497314859" duration="770000" />
+      <workItem from="1551660155475" duration="657000" />
+      <workItem from="1551660839576" duration="6481000" />
+      <workItem from="1551674699365" duration="7529000" />
+      <workItem from="1551692932255" duration="613000" />
+      <workItem from="1551747002911" duration="9777000" />
+      <workItem from="1551768950791" duration="206000" />
+      <workItem from="1551769178575" duration="1570000" />
+      <workItem from="1551832997862" duration="20284000" />
+      <workItem from="1551861040574" duration="9667000" />
+      <workItem from="1551871154319" duration="246000" />
+      <workItem from="1551919204849" duration="73000" />
+      <workItem from="1551919476333" duration="64000" />
+      <workItem from="1551919610021" duration="1588000" />
+      <workItem from="1551924788962" duration="1986000" />
+      <workItem from="1551927433622" duration="5647000" />
+      <workItem from="1551944176083" duration="9234000" />
+      <workItem from="1552006349606" duration="27322000" />
+      <workItem from="1552091359008" duration="24019000" />
+      <workItem from="1552194622055" duration="8845000" />
+      <workItem from="1552265282683" duration="25607000" />
+      <workItem from="1552350994350" duration="24528000" />
+      <workItem from="1552383810835" duration="3400000" />
+      <workItem from="1552438611896" duration="3140000" />
+      <workItem from="1552442247957" duration="22865000" />
+      <workItem from="1552524786332" duration="32941000" />
+      <workItem from="1552610777199" duration="30874000" />
+      <workItem from="1552697551154" duration="6443000" />
+      <workItem from="1552870329366" duration="8181000" />
+      <workItem from="1552890641037" duration="12377000" />
+      <workItem from="1552956493568" duration="22516000" />
+      <workItem from="1552988221892" duration="5786000" />
+      <workItem from="1553043597302" duration="17043000" />
+      <workItem from="1553075890598" duration="2318000" />
+      <workItem from="1553088170268" duration="246000" />
+      <workItem from="1553129637038" duration="25720000" />
+      <workItem from="1553215147105" duration="22197000" />
+      <workItem from="1553256479643" duration="1268000" />
+      <workItem from="1553298206527" duration="12000" />
+      <workItem from="1553298562612" duration="424000" />
+      <workItem from="1553302023041" duration="10314000" />
+      <workItem from="1553312431241" duration="10827000" />
+      <workItem from="1553326461063" duration="4624000" />
+      <workItem from="1553440002212" duration="110000" />
+      <workItem from="1553474939283" duration="17089000" />
+      <workItem from="1553523576922" duration="5073000" />
+      <workItem from="1553561598086" duration="224000" />
+      <workItem from="1553562124992" duration="27365000" />
+      <workItem from="1553648228338" duration="11078000" />
+      <workItem from="1553665989689" duration="2793000" />
+      <workItem from="1553668898838" duration="10936000" />
+      <workItem from="1553688639036" duration="4194000" />
+      <workItem from="1553734388760" duration="32697000" />
+      <workItem from="1553774209477" duration="1779000" />
+      <workItem from="1553796341048" duration="60000" />
+      <workItem from="1553796481708" duration="78000" />
+      <workItem from="1553797126199" duration="56000" />
+      <workItem from="1553797648272" duration="512000" />
+      <workItem from="1553798365409" duration="18000" />
+      <workItem from="1553798437005" duration="16000" />
+      <workItem from="1553820990045" duration="25540000" />
+      <workItem from="1553907077504" duration="5836000" />
+      <workItem from="1553926515925" duration="824000" />
+      <workItem from="1553929515196" duration="299000" />
+      <workItem from="1553931785483" duration="1183000" />
+      <workItem from="1554045262436" duration="382000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="809145000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="1" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1688988" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3279743" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39869282" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="缩略图" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868218" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3279743" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/js 0311/7.显示变量类型.html</url>
+          <line>15</line>
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/js 0311/7.显示变量类型.html</url>
+          <line>9</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="4" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/js 0325/12.对象的使用.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js 0325/13.json与字符串的转换.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js 0325/15.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="20" column="58" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js 0325/10.获取鼠标位置.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js 0325/9.事件对象获取本身.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js 0325/7.鼠标事件对象.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js 0325/6.滚动条宽高计算.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-405">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css网上教程/2-4 CSS的字体样式-(font).html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-78">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css网上教程/2-5 CSS的字体阴影-(3d文字).html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css网上教程/2-6 CSS的边框属性-(border).html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css网上教程/2-2 CSS背景控制—背景图.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css网上教程/2-1 CSS背景控制—背景色.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="20" column="19" lean-forward="true" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js 0322/8.历史记录.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js 0322/9.open.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-334">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js练习/5/5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js练习/5/1转换二维数组.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js练习/5/7.弹窗.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js练习/5/8.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="503">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js 0321/11.call,apply使用.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-442">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js练习/5/6.电子表.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="539">
+          <caret line="32" column="54" lean-forward="false" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Documents/Tencent Files/954257677/FileRecv/diancan/js/index.js" />
+    <entry file="file://$PROJECT_DIR$/js 0326/diancan/js/cookie.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js 0326/diancan/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2980">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js 0325/14.ajax实现.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-433">
+          <caret line="36" column="22" lean-forward="true" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js 0322/5.设置或获取cookie.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="64" column="0" lean-forward="true" selection-start-line="31" selection-start-column="2" selection-end-line="64" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js 0326/diancan/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1512">
+          <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js 0326/diancan/js/table.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js 0326/diancan/table.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js 0326/diancan/css/table.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-162">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js 0326/diancan/js/table2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-945">
+          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js 0326/diancan/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diancan练习/js/3.js" />
+    <entry file="file://$PROJECT_DIR$/js练习/5/2 55-280的随机数.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/下载/GitHub_汉化插件.user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-162">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js 0311/9.三元运算.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js 0322/6.定时器.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diancan练习/css/1home.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="122" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diancan练习/2table.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="28" column="7" lean-forward="false" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diancan练习/css/2table.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1242">
+          <caret line="46" column="21" lean-forward="false" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diancan练习/css/3guest.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="30" column="21" lean-forward="false" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diancan练习/js/1home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="75" column="40" lean-forward="false" selection-start-line="75" selection-start-column="30" selection-end-line="75" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js练习/轮播图/重做轮播图.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1539">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js练习/轮播图/轮播图.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diancan练习/4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diancan练习/5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diancan练习/js/2table.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-394">
+          <caret line="72" column="50" lean-forward="false" selection-start-line="72" selection-start-column="50" selection-end-line="72" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diancan练习/3guest.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="17" column="36" lean-forward="false" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diancan练习/js/cookie.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diancan练习/js/3guest.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1269">
+          <caret line="49" column="46" lean-forward="false" selection-start-line="49" selection-start-column="46" selection-end-line="49" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diancan练习/1home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="28" lean-forward="false" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js练习/轮播图/img/御龙轮播图.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="138" column="7" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="138" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

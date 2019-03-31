@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div{
+            width:800px;
+            height:600px;
+            border:solid 2px red;
+        }
+    </style>
+</head>
+<body>
+<div>盒子</div>
+
+<script>
+    var div = document.getElementsByTagName('div')[0];
+    div.onmousemove = function (event) {
+      console.log(event.pageX , event.pageY)
+    }
+    
+</script>
+
+
+</body>
+</html>

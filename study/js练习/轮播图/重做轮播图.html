@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box{
+            width: 800px;
+            height: 450px;
+            position: relative;
+            border: 5px solid blue;
+            margin:0 auto;
+        }
+        .left{
+            position: absolute;
+            display: inline-block;
+            width: 60px;
+            height: 60px;
+            text-align: center;
+            line-height: 60px;
+            left: 0;
+            top: 50%;
+            margin-top: -30px;
+            background: rgba(255,0,0,0.5);
+            font-size: 20px;
+            color: white;
+        }
+        .right{
+            position: absolute;
+            display: inline-block;
+            width: 60px;
+            height: 60px;
+            text-align: center;
+            line-height: 60px;
+            right: 0;
+            top: 50%;
+            margin-top: -30px;
+            background: rgba(255,0,0,0.5);
+            font-size: 20px;
+            color: white;
+        }
+        .aj{
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+        }
+        .aj li{
+            list-style: none;
+            float: left;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background: orange;
+            margin: 10px;
+            text-align: center;
+            line-height: 60px;
+        }
+        .aj .bg{
+            background: green;
+        }
+    </style>
+</head>
+<body>
+<div class="box">
+    <img src="1.jpg" alt="">
+    <div class="left">&lt;</div><div class="right">&gt;</div>
+    <ul class="aj">
+        <li class="bg"></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</div>
+<script>
+    var li=document.getElementsByTagName('li');
+    var left=document.getElementsByClassName('left')[0];
+    var right=document.getElementsByClassName('right')[0];
+    var img=document.getElementsByTagName('img')[0];
+    var m=0
+    for(i=0;i<li.length;i++){
+        li[i].onmouseover=function () {
+            for(j=0;j<li.length;j++){
+             li[j].className='';
+                if(li[j]==this)
+                {k=j+1;
+                    img.src=k + '.jpg'}
+                this.className='bg'
+         }
+
+        }
+    }
+    left.onclick=function () {
+        m--;
+        if(m<1){
+            m=5
+        }
+        img.src=m + '.jpg';
+        for (k=0;k<li.length;k++){
+            if(k==m-1){
+                li[k].className='bg'
+            }
+            else {
+                li[k].className=''
+            }
+        }
+    };
+    right.onclick=function () {
+        m++;
+        if(m>5){
+            m=1
+        }
+        img.src=m + '.jpg'
+        for (k=0;k<li.length;k++){
+            if(k==m-1){
+               li[k].className='bg'
+            }
+            else {
+                li[k].className=''
+            }
+        }
+    }
+</script>
+</body>
+</html>

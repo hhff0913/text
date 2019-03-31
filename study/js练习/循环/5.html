@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div{
+            background: orange;
+        }
+        span{
+            display: inline-block;
+            height: 20px;
+            background:beige;
+            margin: 5px;
+
+        }
+    </style>
+</head>
+<body>
+<div>
+<script>
+
+
+        for(i=1;i<=9;i++)
+        {
+            for(y=1;y<=i;y++)
+            {
+                var k="&nbsp;";
+                if(i*y<10)
+                {
+                    k+="&nbsp;&nbsp;"
+                }
+                document.write('<span>'+y+'x'+i+'='+(i*y)+k+'</span>');
+
+            }
+            document.write("<br>")/*把i换行*/
+
+        }
+
+
+</script>
+</div>
+</body>
+</html>

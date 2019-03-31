@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input id="xf" type="button" value="循环">
+<ul>
+
+</ul>
+<script>
+    var arr = ['张三','李四','王二','赵六','钱七'];
+    var xf = document.getElementById('xf');
+    var ul = document.getElementsByTagName('ul')[0];
+    xf.onclick= function () {
+      for(var i = 0;i < arr.length ;i++) {
+        //创建li
+        var li = document.createElement('li');
+        // alert(arr[i])
+        // console.log(arr[i])  // 打印到控制台
+
+        // 断点
+        debugger
+        li.innerText = arr[i];
+        ul.appendChild(li);
+      }
+    }
+
+
+</script>
+
+
+</body>
+</html>

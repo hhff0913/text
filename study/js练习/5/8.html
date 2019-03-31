@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<body>
+<p><span id="h"></span>：<span id="m"></span>：<span id="s"></span></p>
+</body>
+<script>
+    var h=document.getElementById("h");
+    var m=document.getElementById("m");
+    var s=document.getElementById("s");
+
+    function x(){
+        var date=new Date();
+        var d=date.getHours()
+        var d1=d.toString();
+        h.innerHTML=d1;
+    }
+    x()
+    function y(){
+        var date=new Date();
+        var da=date.getMinutes()
+        var d2=da.toString();
+        m.innerHTML=d2;
+    }
+    y()
+
+    function get(){
+        var date=new Date();
+        var day=date.getSeconds()
+        var d3=day.toString();
+        s.innerHTML=d3;
+    }
+    setInterval("get()",1000);
+
+</script>
+
+</html>

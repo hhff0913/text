@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div>账号：<input type="text" id="user"></div>
+    <div>密码：<input type="text" id="password"></div>
+    <div><input type="button" id="post" value="登录"></div>
+    <script>
+        var post=document.getElementById('post');
+        post.onclick=function () {
+         var memberid=document.getElementById('user') .value ;
+         var password=document.getElementById('password').value;
+         var xhr=new XMLHttpRequest();
+         xhr.open('post','http://39.108.162.36:8083/CateringSystem1.0/recruitment/catering/login.do?method=login')
+         xhr.setRequestHeader('Content-Type','application/x-www-form-urlencoded');
+         xhr.send('memberid='+ memberid +'&password='+password);
+         xhr.onreadystatechange=function () {
+             if(xhr.readyState ===4 && xhr.status === 200)
+
+         }
+        }
+    </script>
+</body>
+</html>

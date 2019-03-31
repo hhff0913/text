@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<select name="" id="sheng">
+    <option value=""></option>
+</select>
+<select name="" id="shi">
+    <option value="">请选择</option>
+</select>
+
+<select name="" id="qu">
+    <option value="">请选择</option>
+</select>
+
+<p id="pp"></p>
+
+<script>
+    var shengArr = ['请选择','陕西','湖南','广东','江西'];   // shengArr[1]
+
+    var shiArr = [[],['西安','宝鸡','咸阳'],['长沙','邵阳','湘潭'],['深圳','广州','东莞'],['南昌','九江','干州']];
+         // shiArr[1][1]
+    var quArr = [[],[['西安1','西安2','西安3'],['宝鸡1','宝鸡2','宝鸡3'],['咸阳1','咸阳2']],
+      [['长沙1','长沙2','长沙3'],['邵阳1'],['湘潭1','湘潭2']],
+      [['龙华','罗湖','福田'],['白云','从化','花都'],['万江','厚街','东城']],
+      [['南昌1','南昌2','南昌3'],['九江1','九江2'],['干州1','干州2']]
+    ]
+
+    //  quArr[1][0][0]
+
+
+    var sheng = document.getElementById('sheng');
+    var shi = document.getElementById('shi');
+    var qu = document.getElementById('qu');
+    //生成省份列表
+    var options = '';
+    for(var i=0;i<shengArr.length; i++) {
+      options  = options +  '<option value="'+(i )+'">'+  shengArr[i] +'</option>'
+    }
+
+    sheng.innerHTML =  options;
+
+//    var pp = document.getElementById('pp');
+//    pp.innerHTML = "<span>这是span标签</span>"
+    var shengIndex = -1;
+    var shiIndex = -1;
+    sheng.onchange = function () {
+      // alert(  this.selectedIndex )
+      //对应的城市
+      shengIndex = this.selectedIndex ;
+
+      var o = '<option>请选择</option>';
+      var currCityList = shiArr[ this.selectedIndex ]
+      for(var i = 0; i<currCityList.length; i++ ) {
+        o += '<option>'+currCityList[i]+'</option>'
+      }
+      shi.innerHTML = o;
+    }
+
+    shi.onchange = function () {
+      shiIndex = this.selectedIndex;
+
+       // 根据省份的索引和市的索引，找到区所对应数组
+      // 再根据数组循环出区里的项
+       var quArrList = quArr[shengIndex][shiIndex-1] ;
+       qu.innerHTML = '<option>请选择</option>';  //清除掉以前的
+       for (var i=0;i<quArrList.length;i++) {
+         var option = document.createElement('option');
+         option.innerText = quArrList[i];
+         qu.appendChild(option)
+       }
+    }
+</script>
+
+
+
+</body>
+</html>

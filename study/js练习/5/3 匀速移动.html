@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .box{
+            width: 200px;
+            height: 200px;
+            background: red;
+        }
+    </style>
+
+</head>
+<body>
+<div class="box">
+
+
+</div>
+<script>
+    var box=document.getElementsByClassName('box')[0]
+    setInterval(function(){
+        var oldWidth = box.style.marginLeft.replace('px','') ;
+        box.style.marginLeft=((oldWidth)*1+1)+'px'
+        if((oldWidth)*1>10){
+            (oldWidth)==0
+        }
+
+    },10 )
+</script>
+</body>
+</html>

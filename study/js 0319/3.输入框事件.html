@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        window.onload = function () {
+          var username = document.getElementById('username');
+          var password = document.getElementById('password');
+          // onchange 输入框文本改变
+          username.onchange = function() {
+            //alert('你的输入文本改变了')
+          }
+          // 获点焦点
+          username.onfocus = function () {
+            //alert('你获得焦点了！')
+          }
+          // 失去焦点
+          username.onblur = function () {
+            alert('你失去焦点了')
+          }
+        }
+
+       function formPost() {
+         alert('你的表单正在提交')
+       }
+    </script>
+</head>
+<body>
+
+<form action="" onsubmit="formPost()">
+    <div>账号：<input id="username" type="text"></div>
+    <div>密码：<input id="password" type="password"></div>
+    <div><input id="post" type="submit" value="提交"></div>
+</form>
+
+
+</body>
+</html>

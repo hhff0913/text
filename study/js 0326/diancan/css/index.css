@@ -1,0 +1,126 @@
+* {
+    margin:0;
+    padding:0;
+}
+body {
+    background: #f9f9f9;
+}
+/* 头部 */
+.header {
+    width: 100%;
+    height:44px;
+    line-height:44px;
+    color: white;
+    background: #000;
+    text-align: center;
+    font-size:18px;
+}
+
+.zhbox {
+    margin: 20px 10px 10px 10px;
+    border:solid 1px #cdcdcd;
+    border-radius: 6px;
+    height: 40px;
+    line-height:40px;
+    background: #fff;
+}
+
+.mmbox {
+    margin: 10px 10px 10px 10px;
+    border:solid 1px #cdcdcd;
+    border-radius: 6px;
+    height: 40px;
+    line-height:40px;
+    background: #fff;
+}
+
+.zhbox > .title, .mmbox > .title {
+    margin-left:10px;
+}
+.zhbox > input , .mmbox >input {
+    border: none;
+    outline: none;
+    width: 60%;
+}
+
+.zhbox > .del , .mmbox > .del {
+    display: inline-block;
+    width: 26px;
+    height:26px;
+    line-height:26px;
+    text-align: center;
+    background: #cdcdcd;
+    color: white;
+    font-size:20px;
+    border-radius: 50%;
+    float:right;
+    margin-right:10px;
+    margin-top:8px;
+}
+
+.autobox {
+    margin: 10px;
+    height:40px;
+    line-height:40px;
+    position: relative;
+}
+.autobox > .auto {
+    margin-left: 10px;
+}
+
+.autobox > .switch {
+    display: inline-block;
+    width:60px;
+    height:28px;
+    border:solid 1px #cdcdcd;
+    border-radius: 15px;
+    background: #cdcdcd;
+    position: absolute;
+    right: 0px;
+    top: 5px;
+}
+
+.autobox > .switch > .ball {
+    display: inline-block;
+    width:28px;
+    height:28px;
+    background: linear-gradient(#eaeaea, #fff);
+    border-radius: 50%;
+}
+
+.autobox > .open {
+    background: green;
+    border:solid 1px green;
+}
+.autobox > .open > span {
+    float:right;
+}
+
+.login {
+    height:40px;
+    line-height:40px;
+    text-align: center;
+    background: green;
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    margin:20px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.tools{
+    width: 50%;
+    height:40px;
+    line-height:40px;
+    text-align: center;
+    background: #000;
+    color:white;
+    font-size:18px;
+    border-radius: 6px;
+    margin:0 auto;
+}
+
+.none {
+    display:none;
+}

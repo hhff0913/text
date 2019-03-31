@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var json = {
+      "name": '张三',
+      "age": 30,
+      "婚姻": true,
+      "爱好": ["书法","游戏","逛街"]
+    };
+    //console.log(json)
+    //转成字符串
+    var str = JSON.stringify(json)
+
+    console.log(str)
+    // 字符串转json
+    var json2 = JSON.parse(str);
+    console.log(json2)
+
+
+</script>
+
+
+</body>
+</html>

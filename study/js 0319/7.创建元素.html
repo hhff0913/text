@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+<div id="box">
+
+</div>
+
+<script>
+    var div = document.getElementsByTagName('div')[0];
+    div.innerHTML = "<p>我是新加的p标签</p>"
+    //创建一个新标签
+    var div2 = document.createElement('div');
+    div2.innerText = '我是新创建的div标签'
+
+    var p2 = document.createElement('p');
+        p2.innerText = 'p2222222222222222222'
+
+
+    // 添加子标签
+    div.appendChild(div2);
+    div.appendChild(p2)
+
+</script>
+
+
+
+</body>
+</html>

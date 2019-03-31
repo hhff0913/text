@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div {
+            width:300px;
+            height:300px;
+            border:solid 2px red;
+        }
+    </style>
+    <script>
+        // 等body里所有的标签及相关的资源加载完成后，再执行
+        /*
+        window.onload = function () {
+          var div = document.getElementsByTagName('div')[0];
+          div.onclick = function() {
+            alert(12341234)
+          }
+        }
+        */
+        function myload() {
+          var div = document.getElementsByTagName('div')[0];
+          div.onclick = function() {
+            alert(12341234)
+          }
+        }
+        function  imgload() {
+          alert('图片加载完了')
+        }
+    </script>
+</head>
+<body onload="myload()">
+<div>绑定事件</div>
+<img src="https://m.360buyimg.com/babel/jfs/t1/24079/24/10634/98177/5c89f9c8Ea6c957e6/6b193d7593449ac5.jpg" alt="" onload="imgload()">
+
+</body>
+</html>

@@ -1,0 +1,16 @@
+#box {
+    width:200px;
+height:200px;
+border: solid 3px red;
+}
+
+.bang {
+    width:200px;
+    height:200px;
+    border:dashed 3px blue;
+    background: orange;
+}
+div{
+    font-size: 60px;
+    color: saddlebrown;
+}

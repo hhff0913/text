@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    /*
+    // 设置cookie数据
+    document.cookie = 'memberId=1234';
+    document.cookie = 'password=123456';
+     */
+
+
+    /*
+    var date = new Date();
+    alert( date.getTime()  )
+
+    date.setTime( date.getTime() + 1*24*60*60*1000 )
+
+    document.cookie = 'goods=888888;expires='+  date.toString()  ;
+    document.cookie = 'price=666';
+
+    //获取cookie
+    var cookie = document.cookie;
+   // alert(cookie)
+   */
+    document.cookie = 'memberId=1234';
+    document.cookie = 'password=123456';
+
+    //获取cookie
+    function getCookie(key ) {
+      // 取所有的cookie
+      var cookie = document.cookie;  // memberId=1234; password=123456
+      var cookieArr = cookie.split('; ');  // ['memberId=1234','password=123456','goods=88888']
+      for(var i = 0; i< cookieArr.length; i++) {
+        var str = cookieArr[i];   // 'memberId=1234'   , 'password=123456' ,  'goods=88888'
+        var keyArr = str.split('=');   // 'memberId=1234' =>  ['memberId','1234']
+        if (keyArr[0] == key ) {
+          return keyArr[1];
+        }
+      }
+      return '';
+    }
+
+    //alert(  getCookie('memberId') )
+    //alert( getCookie('goods'))
+    function setCookie(key,value,day) {
+        var date = new Date();
+        date.setTime(  date.getTime() + day*24*60*60*1000 );
+        document.cookie = key +"=" + value +";expires=" + date.toString();
+    }
+
+    //setCookie('zhangsha','张三',60);
+    //setCookie('lishi','李四',180);
+
+    //删除cookie
+    // setCookie('zhangsha','',-1);
+    function removeCookie(key) {
+      setCookie(key,'',-1);
+    }
+    removeCookie('lishi')
+
+
+</script>
+
+
+</body>
+</html>

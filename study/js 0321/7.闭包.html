@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // 函数套用函数，被调用函数有引用外部函数的变量，导致此变量无法释放，则称为闭包
+    function count() {
+      var i = 0;
+      return function () {
+        i++;
+
+        return i;
+      }
+    }
+
+    var c = count();
+    alert(  c()  )  ;
+    alert(  c()  )  ;
+    alert(  c()  )  ;
+    alert(  c()  )  ;
+    alert(  c()  )  ;
+    alert(  c()  )  ;
+
+
+
+</script>
+
+</body>
+</html>

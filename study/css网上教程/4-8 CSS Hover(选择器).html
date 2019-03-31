@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="icon" type="image/icon-x" href="images/logo.png">
+    <title>CSS Hover(选择器)</title>
+    <style type="text/css">
+        *{margin: 0px;padding: 0px;}
+        body{background: url(images/2.jpg) no-repeat right top;font-family: 楷体;}
+        /*:hover 选择器用于选择鼠标指针浮动在上面的元素
+ */     ul li{list-style: none;width: 100px;height: 40px;float: left;background: #ccc;
+                   margin-right:5px;text-align: center;line-height: 40px;}
+        li:hover{color: #ff6500;background: pink;}
+        /*将元素框隐藏*/
+        li ul{display: none;}
+
+        li:hover ul{display: block;}
+
+    </style>
+</head>
+<body>
+<ul>
+    <li>苹果
+        <ul>
+            <li>梨子</li>
+            <li>梨子</li>
+            <li>梨子</li>
+        </ul>
+    </li>
+    <li>苹果</li>
+    <li>苹果</li>
+    <li>苹果</li>
+    <li>苹果</li>
+</ul>
+</body>
+</html>

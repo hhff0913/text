@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+    span{
+            border: solid 1px #CDCDCE;
+        }
+        .box{
+            width: 300px;
+            height: 300px;
+            border: solid 1px black;
+
+        }
+    </style>
+</head>
+<body>
+<span>红色</span><span>蓝色</span><span>绿色</span>
+<div class="box"></div>
+<script>
+    var span=document.getElementsByTagName('span');
+    var div=document.getElementsByTagName('div')[0];
+    span[0].onclick=function () {
+        div.style.background='blue'
+    };
+    span[1].onclick=function () {
+       div.style.background='blue'
+    };
+    span[2].onclick=function () {
+        div.style.background='green'
+    }
+</script>
+</body>
+</html>

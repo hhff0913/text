@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div{
+            width:200px;
+            height:200px;
+        }
+        .f {
+            background: red;
+        }
+        .e {
+            background: blue;
+        }
+        .s {
+            background: green;
+        }
+    </style>
+</head>
+<body>
+<div class="f">第一
+    <div class="e">第二
+        <div class="s">第三</div>
+    </div>
+</div>
+
+
+<script>
+    var divs = document.getElementsByTagName('div');
+    divs[0].onclick = function (event) {
+      alert(this.innerText)
+    }
+    divs[1].onclick = function (event) {
+      alert(this.innerText)
+    }
+    divs[2].onclick = function (event) {
+      event.stopPropagation()
+      // event.cancelBubble;
+      alert(this.innerText)
+    }
+
+
+</script>
+
+
+</body>
+</html>

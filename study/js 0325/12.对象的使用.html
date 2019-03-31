@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // json对象 和js对象的区别 ，js对象的属性可以不加引号
+    var obj = {
+      "name": '张三',
+      "sex" : '男',
+      "children" : [
+        {
+          "张三丰": {
+
+          }
+        },
+        {
+          "张学友": {
+            "sex": '男',
+
+
+          }
+        }
+      ]
+    }
+    // 获取json属性值
+    //alert(obj.name)
+
+    // 设置值
+    obj.name = '李四'
+    //obj["name"] = '李四'
+    alert(obj["name"])
+
+</script>
+
+</body>
+</html>

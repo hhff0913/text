@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div {
+            width:300px;
+            height:300px;
+            border:solid 5px red;
+        }
+        p {
+            width:200px;
+            height:100px;
+            background: orange;
+        }
+    </style>
+</head>
+<body>
+<input type="button" value="删除子标签">  <input type="button" value="添加子标签">
+<div>父标签
+    <p id="box">子标签</p>
+</div>
+
+<script>
+    var button = document.getElementsByTagName('input') ;
+    var box = document.getElementById('box');
+    
+    button[0].onclick = function () {
+      box.remove();
+    }
+    
+    // 加
+    button[1].onclick = function () {
+      var div = document.getElementsByTagName('div')[0];
+      var p = document.createElement('p');
+      //p.innerText = '我是新建的p子标签'
+      var t = document.createTextNode('我是新建的p子标签')
+      p.appendChild(t)
+      div.appendChild(p)
+    }
+
+</script>
+
+
+</body>
+</html>

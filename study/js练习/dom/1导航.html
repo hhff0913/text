@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div></div>
+<script>
+    window.onload=function () {
+
+        var body = document.getElementsByTagName('body')[0];
+        var ul = document.createElement('ul');
+        body.appendChild(ul);
+        for (var i = 0; i < 5; i++) {
+            var li = document.createElement('li');
+            li.innerText = i;
+            ul.appendChild(li);
+        }
+
+
+        var lis=document.getElementsByTagName('li');
+        lis[0].innerText = '首页';
+        lis[1].innerText = '快讯';
+        lis[2].innerText = '产品';
+        lis[3].innerText = '案例';
+        lis[4].innerText = '关于';
+
+    }
+</script>
+</body>
+</html>

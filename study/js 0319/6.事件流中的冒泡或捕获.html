@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div {
+            width:200px;
+            height:200px;
+        }
+        #first {
+            background: red;
+        }
+        #second {
+            background: green;
+        }
+        #third {
+            background: blue ;
+        }
+    </style>
+
+    <script>
+        window.onload = function () {
+          var first = document.getElementById('first');
+          var second = document.getElementById('second');
+          var third = document.getElementById('third');
+
+          // 事件流： 从内到外的传递，称作事件的冒泡模式(false) , 反之 称为，事件的捕获模式(true)
+
+
+          first.addEventListener('click',function (event) {
+            //阻止冒泡或捕获(阻止事件流的传递)
+            event.stopPropagation();
+            alert('第一层div')
+          },true)
+
+          second.addEventListener('click',function () {
+            alert('第二层div')
+          },true)
+
+          third.addEventListener('click',function () {
+            alert('第三层div')
+          },true)
+
+          // ie8或以下版本
+          third.attachEvent('onclick',function(){
+            alert('第三层div')
+          },true);
+
+
+        }
+    </script>
+
+</head>
+<body>
+
+<div id="first">第一层
+    <div id="second">第二层
+        <div id="third">第三层</div>
+    </div>
+</div>
+
+
+</body>
+</html>

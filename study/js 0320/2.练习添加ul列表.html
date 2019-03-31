@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        ul{
+            list-style: none;
+        }
+        ul li {
+            float:left;
+            width: 80px;
+            height:24px;
+            line-height:24px;
+            text-align: center;
+            background: lightblue;
+            color:green;
+            /*border-right:solid 1px white;*/
+            margin-right:1px;
+        }
+    </style>
+</head>
+<body>
+
+<!--<ul>-->
+    <!--<li>首页</li>-->
+    <!--<li>快讯</li>-->
+    <!--<li>产品</li>-->
+    <!--<li>案例</li>-->
+    <!--<li>关于</li>-->
+<!--</ul>-->
+
+<script>
+    var body = document.getElementsByTagName('body')[0];
+    // 创建ul
+    var ul = document.createElement('ul');
+    var liArr = ['首页','快讯','产品','案例','关于'];
+    for(var i=0; i< liArr.length ;i++) {
+      //创建li并添加到ul中
+      var li = document.createElement('li');
+      li.innerText = liArr[i];
+      ul.appendChild(li);
+    }
+    body.appendChild(ul);
+
+</script>
+
+
+
+</body>
+</html>

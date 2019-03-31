@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //局部代码块可以访问全局变量，但全局不能访问局部变量
+    var x = 100;    //全局
+    function foo(x){
+      var b = 200;   //局部
+      console.log(x)
+      console.log(b)
+    }
+    foo(x);
+    console.log(x)
+    console.log(b)
+
+
+
+</script>
+
+
+</body>
+</html>

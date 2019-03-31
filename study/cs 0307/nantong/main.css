@@ -1,0 +1,113 @@
+* {
+    padding:0;
+    margin: 0;
+}
+.top_box {
+    height: 35px;
+    line-height:35px;
+    border-bottom: solid 1px #006fb9;
+    background: #0075c3;
+    color:white;
+}
+.top_box_center {
+    width:1000px;
+    margin: 0 auto;
+}
+
+.top_box_center a:link {
+    color: white;
+    text-decoration: none;
+}
+
+
+.top_box_center > div {
+    position: relative;
+}
+.top_box_center > div > img {
+    position: absolute;
+    top:6px;
+}
+
+.top_box_center > div > span {
+    margin-left: 28px;
+}
+
+.top_box_left {
+    float: left;
+}
+
+.top_box_right {
+    float:right;
+    position: relative;
+}
+
+.top_box_right > .phone {
+    right: 240px;
+
+}
+
+.top_box_right > .wx {
+    right: 120px;
+
+}
+.top_box_right > .wb {
+    right: 60px;
+
+}
+.top_box_right > .qq {
+    right:   0px;
+
+}
+.top_box_right   .sjb {
+    position: absolute;
+    right:  160px;
+    width: 60px;
+}
+
+/* 顶端中心 */
+.top_mid {
+    height:177px;
+    background-image: url("images/top_bg.png");
+}
+.top_mid > .top_mid_center {
+    width: 1000px;
+    height:177px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.top_mid > .top_mid_center > img {
+    position: relative;
+    left: 0px;
+    top: 40px;
+}
+
+.top_mid > .top_mid_center > ul {
+    position: absolute;
+    bottom: 0px;
+    list-style: none;
+    width:1000px;
+    height:38px;
+    background: #0075c3;
+}
+
+.menu > li {
+    float:left;
+    color: white;
+    width: 100px;
+    height:38px;
+    line-height:38px;
+    background: #0075c3;
+    font-size:14px;
+    font-weight: bold;
+    text-align: center;
+}
+.menu > li:hover {
+    background: white;
+    color:#0075c3;
+}
+
+.top_line {
+    height:10px;
+    background: url(images/splitter.png);
+}

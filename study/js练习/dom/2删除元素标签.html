@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class=box>
+    <!--1).请删除节点box4,box5-->
+    <!--2).请替换节点box6为span,并保留原文本-->
+    <h3>删除节点</h3>
+    <div class=box2>
+        <p class=box4>我是box4</p>
+    </div>
+    <div class=box3>
+        <p class=box5>我是box5</p>
+    </div>
+    <div class="box1">
+        <p class=box6>我是box6</p>
+    </div>
+</div>
+<script>
+    var h3=document.getElementsByTagName('h3')[0];
+    var box4=document.getElementsByClassName('box4')[0];
+    var box5=document.getElementsByClassName('box5')[0];
+    h3.onclick=function () {
+        box4.remove()
+        box5.remove()
+
+    var box1=document.getElementsByClassName('box1')[0]
+    var box6=document.getElementsByClassName('box6')[0]
+    var span=document.createElement('span')
+    span.innerText='我是box6'
+    box1.replaceChild(span,box6)
+    }
+</script>
+</body>
+</html>

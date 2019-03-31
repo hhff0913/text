@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<a href="http://www.baidu.com" id="baidu">跳转到百度</a>
+<script>
+    var baidu = document.getElementById('baidu');
+    baidu.onclick = function(event){
+        event.preventDefault() ;  //阻止默认行为（事件）
+        location.href = 'http://www.jd.com'
+    }
+
+
+</script>
+
+
+</body>
+</html>

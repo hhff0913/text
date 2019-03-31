@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input name="x" type="button" value="全选"><input name="x" type="button" value="不选"><input name="x" type="button" value="反选">
+<br>
+<input class="box" type="checkbox"><br>
+<input class="box" type="checkbox"><br>
+<input class="box" type="checkbox" checked><br>
+<input class="box" type="checkbox" checked><br>
+<input class="box" type="checkbox"><br>
+<input class="box" type="checkbox" checked><br>
+<input class="box" type="checkbox"><br>
+<input class="box" type="checkbox"><br>
+<input class="box" type="checkbox"><br>
+<input class="box" type="checkbox"><br>
+<input class="box" type="checkbox"><br>
+<script>
+    var x=document.getElementsByName('x');
+    var box=document.getElementsByClassName('box');
+    x[0].onclick=function () {
+        for(i=0 ;i<=10 ;i++)
+        {
+            box[i].checked=true
+        }
+    };
+    x[1].onclick=function () {
+        for(i=0;i<=10;i++)
+        {
+            box[i].checked=false
+        }
+
+    };
+
+  /*x[2].onclick=function () {
+        var i=0;
+       while (i<=10)
+       {
+
+           if(box[i].checked==true){
+               box[i].checked=false;
+           }
+           else{
+               box[i].checked=true;
+           }
+           i++;
+       }
+    }*/
+x[2].onclick=function(){
+    for (i=0;i<=10;i++) {
+        if (box[i].checked==true)
+        { box[i].checked = !true;}
+        else
+        {box[i].checked = !false;}
+
+    }
+}
+</script>
+</body>
+</html>

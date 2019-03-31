@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="icon" type="image/icon-x" href="images/logo.png">
+    <title>css中内外边距的设置</title>
+    <style type="text/css">
+        *{margin: 0px;padding: 0px;}
+        body{background: url(images/3.jpg) no-repeat right top;}
+        /*内边距：
+        元素的内边距在边框和内容区之间;
+        padding 属性定义元素边框与元素内容之间的空白区域;
+        特点:设置内边距会撑开元素框;
+        设置单边内边距：
+        padding-top
+        padding-right
+        padding-bottom
+        padding-left
+        复合写法 padding:上、右、下、左
+        外边距：
+        围绕在元素边框的空白区域是外边距;
+        特点:设置外边距会在元素外创建额外的“空白”;
+        设置单边外边距：
+        margin-top
+        margin-right
+        margin-bottom
+        margin-left
+        复合写法 margin:上、右、下、左(可以设置为 auto意思是设置等宽空白)*/
+        div{width: 200px;background: pink; padding:50px;/*margin-top:50px ;margin-left:100px;*/margin: 50px auto;}
+        p{width: 200px;height: 200px;background: #ccc;}
+
+    </style>
+</head>
+<body>
+<div>
+    <p></p>
+</div>
+</body>
+</html>

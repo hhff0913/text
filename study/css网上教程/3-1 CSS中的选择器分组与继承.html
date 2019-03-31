@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="icon" type="image/icon-x" href="images/logo.png">
+    <title>css中选择器</title>
+    <style type="text/css">
+        /**号是css中的通配符，意思是所有的标签都有的属性，表示所有的标签都遵循的统一样式。*/
+        *{margin: 0px;padding: 0px;}
+        /*标记选择器*/
+        body{background: url(images/3.jpg) no-repeat right top;font-family: 楷体;}
+        /*选择器：需要改变样式的 HTML 元素*/
+        /*选择器的分组：被分组的选择器就可以分享相同的声明,用逗号将需要分组的选择器分开*/
+        /*h1,h2,p,span{color: red;}*/
+        h1{color: blue;}
+        /*id 选择器可以为标有特定 id 的 HTML 元素指定特定的样式 id 选择器以 "#" 来定义 唯一性*/
+        #box{font-weight: bold;color: red;}
+        /*class 选择器用于描述一组元素的样式，class 选择器有别于id选择器，class可以在多个元素中使用 class选择器以 "." 来定义*/
+        .list{color: red;}
+
+    </style>
+</head>
+<body>
+<h1>被分组的选择器就可以分享相同的声明</h1>
+<h2>被分组的选择器就可以分享相同的声明</h2>
+<p id="box">被分组的选择器就可以分享相同的声明</p>
+<span>我是灭绝</span>
+<ul>
+    <li class="list">苹果</li>
+    <li>苹果</li>
+    <li class="list">苹果</li>
+    <li>苹果</li>
+    <li class="list">苹果</li>
+</ul>
+
+</body>
+</html>

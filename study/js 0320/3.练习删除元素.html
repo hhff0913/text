@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div class=box>
+    <h3>删除节点</h3>
+    <div class=box2>
+        <p class=box4>我是box4</p>
+    </div>
+    <div class=box3>
+        <p class=box5>我是box5</p>
+    </div>
+    <div>
+        <p class=box6>我是box6</p>
+    </div>
+</div>
+
+<script>
+    //1.请删除节点box4,box5
+    var box4 = document.getElementsByClassName('box4')[0];
+         box4.remove();
+    var box5 = document.getElementsByClassName('box5')[0];
+         box5.remove();
+    // 2).请替换节点box6为span,并保留原文本
+    var box6 = document.getElementsByClassName('box6')[0];
+    //创建span
+    var span = document.createElement('span');
+    span.innerText = box6.innerText;
+    box6.parentNode.replaceChild( span, box6 );
+
+</script>
+
+
+</body>
+</html>

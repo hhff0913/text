@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div>用户名：<input type="text" id="user" ></div>
+<div>密码：<input type="text" id="pwd"></div>
+<input type="button" id="post" value="点击">
+
+<script>
+
+    var user= document.getElementById('user');
+    var pwd = document.getElementById('pwd')
+    user.onkeyup =function (e) {
+      alert(e.keyCode)
+      /*
+      if (e.keyCode  === 13) {  //keycode获取按键对应的ascII值
+        pwd.focus();   // 获取焦点
+      }*/
+    }
+
+
+    var post = document.getElementById('post');
+    post.onclick = function (event) {
+      alert(event.button)
+    }
+
+
+    
+</script>
+
+
+</body>
+</html>

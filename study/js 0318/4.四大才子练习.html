@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .tab {
+            width:480px;
+            height:24px;
+        }
+        .tab span{
+            display:inline-block;
+            width:119px;
+            height:24px;
+            line-height:24px;
+            border-right: solid 1px white;
+            background: #666;
+            color:white;
+            text-align: center;
+        }
+        .last {
+            border-right: none;
+        }
+        .box {
+            width:477px;
+            height:480px;
+            border-left:solid 1px #666;
+            border-right:solid 1px #666;
+            border-bottom: solid 1px #666;
+            text-align: center;
+        }
+        .box >div{
+            margin-top:0;
+            text-align: center;
+            font-size: 60px;
+        }
+        .tab .active {
+            color:black;
+            background: lightcyan;
+        }
+
+    </style>
+</head>
+<body>
+<div class="tab">
+    <span class="active">马化腾</span><span>马云</span><span>李彦红</span><span class="last">任正非</span>
+</div>
+<div class="box">
+    <div>马化腾</div>
+    <img src="img/0.png" alt="">
+</div>
+
+<script>
+    var span = document.getElementsByTagName('span');
+    var img=document.getElementsByTagName('img')[0];
+    for(var i=0;i<span.length;i++) {
+        span[i].onclick = function () {
+        //去掉所有的高亮
+            for(var j =0;j<span.length;j++) {
+          span[j].classList.remove('active');
+                if(span[j]===this){
+                    img.src='img/'+j+'.png'}
+            }
+        //当前的添加高亮
+        this.classList.add('active');
+        document.getElementsByTagName('p')[0].innerText = this.innerText;
+
+
+      };
+
+
+    }
+
+</script>
+
+</body>
+</html>

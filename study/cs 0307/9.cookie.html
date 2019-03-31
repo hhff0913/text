@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input id="set" type="button" value="设置cookie">
+<input id="get" type="button" value="获取cookie">
+
+<script>
+    // 设置
+    //document.cookie = 'name=张三';
+    //document.cookie = 'sex=女';
+
+    function setCookie(key, value) {
+      document.cookie = key + '=' + value;
+    }
+
+    function getCookie(key) {
+      //name=张三; sex=女; 冯提莫=网红; device=6; rotate=true
+      var cookies = document.cookie ;
+      var cookieArr = cookies.split('; ')
+      for(var i = 0 ; i < cookieArr.length  ; i++ ){
+          // name=张三
+         var keys = cookieArr[i].split('=');
+          // [name, 张三];
+         if (keys[0] === key) {
+           alert(keys[1])
+         }
+      }
+
+    }
+
+
+    var set = document.getElementById('set')
+    set.onclick = function () {
+      setCookie('冯提莫', "网红")
+    }
+
+    var get = document.getElementById('get')
+    get.onclick = function () {
+      getCookie('冯提莫')
+    }
+
+
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var sheng='广东,湖南,江西,广西;黑龙江,吉林,内蒙古,甘肃';
+
+    // ['广东，湖南，江西，广西','黑龙江吉林，内蒙古，甘肃']
+    var s=sheng.split(";");
+//    console.log(s)
+var x=[];
+    for (var i=0;i<s.length;i++){
+        x[i]=s[i].split(',')
+    }
+    console.log(x)
+
+
+</script>
+</body>
+</html>

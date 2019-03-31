@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    // 文档碎片，提升用户体验
+    var body =document.getElementsByTagName('body')[0];
+    /*
+    for(var i=0; i<10000;i ++ ){
+      //生成10000个div，添加body
+      var div = document.createElement('div');
+      div.innerText = i;
+      body.appendChild(div);
+    }
+    */
+    var fragment = document.createDocumentFragment();
+    for(var i=0; i<10000;i ++ ){
+      //生成10000个div，添加body
+      var div = document.createElement('div');
+      div.innerText = i;
+      fragment.appendChild(div);
+    }
+    body.appendChild(fragment)
+
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .red {
+            position: relative;
+            left: 100px;
+            top: 100px;
+            margin: 150px;
+
+            width: 200px;
+            height: 200px;
+            border:solid 5px red;
+        }
+        .blue {
+            position: relative;
+            left: 0px;
+            top: 0px;
+            margin: 150px;
+            width: 200px;
+            height:200px;
+            border: solid 5px blue;
+            margin: 80px;
+        }
+        .orange {
+            position: absolute;
+            left: 100px;
+            top: 100px;
+            width: 200px;
+            height:200px;
+            border: solid 5px orange;
+        }
+    </style>
+</head>
+<body>
+
+<div class="red">相对定位
+
+    <div class="blue">
+        无定位元素
+        <div class="orange">
+            绝对定位
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        span{
+            border: solid 1px #CDCDCE;
+        }
+        input{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+<span>全选</span><span>不选</span><span>反选</span>
+<input type="checkbox">
+<input type="checkbox">
+<input type="checkbox">
+<input type="checkbox">
+<input type="checkbox">
+<input type="checkbox">
+<input type="checkbox">
+<input type="checkbox">
+<input type="checkbox">
+<input type="checkbox">
+<script>
+    var input=document.getElementsByTagName('input')
+    var span=document.getElementsByTagName('span')
+    span[0].onclick=function () {
+        for(i=0;i<10;i++){
+            input[i].checked=true
+        }
+    }
+    span[1].onclick=function () {
+        for(i=0;i<10;i++){
+            input[i].checked=false
+        }
+    }
+    span[2].onclick=function () {
+        for(i=0;i<10;i++){
+            if(input[i].checked==false){
+                input[i].checked=true
+            }
+            else {
+                input[i].checked=false
+            }
+        }
+    }
+</script>
+</body>
+</html>

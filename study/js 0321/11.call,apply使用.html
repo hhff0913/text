@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    // call,apply用来改变函数中的this指向
+    var x  = 100;
+    function foo(){
+      alert(this.x)
+    }
+
+    foo();
+
+    var obj = {
+      x: 500
+    }
+
+
+    //改变this指向
+    //foo.call(obj);
+    foo.apply(obj)
+
+
+</script>
+
+
+</body>
+</html>

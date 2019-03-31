@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        h2{
+            width: 700px;
+            text-align: center;
+        }
+        tr td{
+            text-align: center;
+            margin:0 auto;
+        }
+        tr{
+            height: 40px;
+        }
+
+    </style>
+</head>
+<body>
+<h2>外层表</h2>
+<table border="1" width="700px" >
+    <tr>
+        <td>name</td>
+        <td>password</td>
+        <td>goal</td>
+    </tr>
+    <tr>
+        <td>xlj</td>
+        <td colspan="2">001</td>
+    </tr>
+    <tr>
+        <td>asa</td>
+        <td rowspan="2"><h3>内层表</h3>
+            <table border="1" width="600"  >
+                <tr >
+                    <td>name</td>
+                    <td>password</td>
+                    <td>goal</td>
+                </tr>
+                <tr>
+                    <td>xlj</td>
+                    <td colspan="2">001</td>
+                </tr>
+                <tr>
+                    <td>asa</td>
+                    <td rowspan="2">内层表</td>
+                    <td>88</td>
+                </tr>
+                <tr>
+                    <td>add</td>
+                    <td>76</td>
+                </tr>
+            </table>
+
+        </td>
+        <td>88</td>
+    </tr>
+    <tr>
+        <td>add</td>
+        <td>76</td>
+    </tr>
+</table>
+</body>
+</html>

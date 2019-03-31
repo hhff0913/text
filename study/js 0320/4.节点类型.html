@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="box" >盒子</div>
+
+<script>
+    var box = document.getElementById('box');
+    /*
+    alert(box.nodeName)
+    alert(box.nodeValue)
+    alert(box.nodeType)    //元素节点 值为1
+    */
+
+    var propNode = box.getAttributeNode('id');
+    /*
+    alert(propNode.nodeName)
+    alert(propNode.nodeValue)
+    alert(propNode.nodeType)   //属性节点值 为2
+    */
+
+    var textNode = box.firstChild;
+    alert(textNode.nodeName)
+    alert(textNode.nodeValue)
+    alert(textNode.nodeType)   //文本节点值 为3
+
+</script>
+
+</body>
+</html>

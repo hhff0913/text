@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input id="back" type="button" value="返回上一页">
+
+<script>
+    //执行一次的定时器
+//    var timer = setTimeout( function(){
+//        alert('我是定时出现的')
+//    }, 2000);
+    // clearTimeout(timer)   //清除
+
+    var i = 0;
+    var timer2 = setInterval(function(){
+        i++;
+        console.log(i)
+        if (i ===10) {
+          // 清除定时器
+          clearInterval(timer2)
+        }
+    }, 1000)
+
+    
+    //返回 上一页
+    var back = document.getElementById('back');
+    back.onclick = function () {
+      //返回上一个网页
+      // history.back();
+      history.go(-1);
+    }
+
+</script>
+
+
+</body>
+</html>

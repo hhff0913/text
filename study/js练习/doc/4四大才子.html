@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .nav{
+            width: 1000px;
+            margin:0 auto;
+        }
+        .nav span{
+            width: 249px;
+            display: inline-block;
+            margin-left: 1px;
+            height: 30px;
+            background: #818181;
+            color: white;
+            text-align: center;
+            line-height: 30px;
+        }
+
+        .jz{
+            margin: 0 auto;
+            width: 270px;
+            height: 379px;
+        }
+        .tx{
+            text-align: center;
+        }
+        .content{
+            margin:0 auto;
+            width: 1000px;
+            height: 600px;
+            border: solid 1px #8ba0ad;
+        }
+    </style>
+</head>
+<body>
+<div class="nav">
+    <span>马化腾</span><span>马云</span><span>李彦红</span><span>任正非</span>
+</div>
+<div class="content">
+<div class="tx">马化腾</div>
+<div class="jz"><img src="0.png" alt=""></div>
+</div>
+<script>
+    var input = document.getElementsByTagName('span');
+    var img = document.getElementsByTagName('img')[0];
+    var tx=document.getElementsByClassName('tx')[0];
+//  input[0].onclick=function () {
+//      img.src = "0.png";
+//      tx.innerText = '马化腾';
+//      for (var i=0; i<input.length; i++){
+//      input[i].style.background = '#818181';
+//      }
+//      input[0].style.background='#ADD9E7';
+//   };
+//  input[1].onclick=function () {
+//      img.src="1.png";
+//       tx.innerText='马云';
+//      for (var i=0; i<input.length; i++){
+//          input[i].style.background= '#818181';
+//      }
+//      input[1].style.background='#ADD9E7';
+//    };
+//  input[2].onclick=function () {
+//        img.src="2.png";
+//        tx.innerText='李彦红';
+//        for (var i=0; i<input.length; i++){
+//            input[i].style.background= '#818181';
+//        }
+//        input[2].style.background='#ADD9E7';
+//    };
+//  input[3].onclick=function () {
+//        img.src="3.png";
+//        tx.innerText='任正非';
+//        for (var i=0; i<input.length; i++){
+//            input[i].style.background= '#818181';
+//        }
+//        input[3].style.background='#ADD9E7';
+//    };
+for(var i=0;i<input.length;i++){
+    input[i].onclick=function () {
+        for(var j=0;j<input.length;j++){
+            input[j].style.background='#818181';
+            if(input[j]===this) {
+                img.src=j+".png";}
+            this.style.background='#ADD9E7';
+            tx.innerText=this.innerText
+        }
+
+    }
+}
+
+
+</script>
+</body>
+</html>

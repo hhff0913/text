@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        /*
+        div {
+            color: red;
+        }
+        p {
+            color: red;
+        }
+        h2 {
+            color: red;
+        }
+        .h3box {
+            color: red;
+        }
+        #h4box {
+            color: red;
+        }
+        */
+        div , p , h2, .h3box ,#h4box {
+            color:red;
+        }
+        #parent  .child {
+            color: blue;
+            border: dotted 5px orange;
+        }
+    </style>
+</head>
+<body>
+<!-- 分组选择器-->
+<div>分区标签</div>
+<p>段落标签</p>
+<h2>标题标签</h2>
+<h3 class="h3box">h3标题</h3>
+<h4 id="h4box">h4标题</h4>
+
+<!--后代选择器-->
+<div id="parent">
+    父标签
+    <p class="child">子标签
+        <p id="son" class="child">孙子标签</p>
+    </p>
+</div>
+
+
+</body>
+</html>

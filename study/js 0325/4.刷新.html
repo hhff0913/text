@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="box"></div>
+<input type="button" id="post" value="刷新">
+
+<script>
+  //获取cookie
+  function getCookie(key ) {
+    // 取所有的cookie
+    var cookie = document.cookie;  // memberId=1234; password=123456
+    var cookieArr = cookie.split('; ');  // ['memberId=1234','password=123456','goods=88888']
+    for(var i = 0; i< cookieArr.length; i++) {
+      var str = cookieArr[i];   // 'memberId=1234'   , 'password=123456' ,  'goods=88888'
+      var keyArr = str.split('=');   // 'memberId=1234' =>  ['memberId','1234']
+      if (keyArr[0] == key ) {
+        return keyArr[1];
+      }
+    }
+    return '';
+  }
+
+  //alert(  getCookie('memberId') )
+  //alert( getCookie('goods'))
+  function setCookie(key,value,day) {
+    var date = new Date();
+    date.setTime(  date.getTime() + day*24*60*60*1000 );
+    document.cookie = key +"=" + value +";expires=" + date.toString();
+  }
+
+  //setCookie('zhangsha','张三',60);
+  //setCookie('lishi','李四',180);
+
+  //删除cookie
+  // setCookie('zhangsha','',-1);
+  function removeCookie(key) {
+    setCookie(key,'',-1);
+  }
+   if (getCookie('count')=='') {
+    setCookie('count', 1 );
+   }
+
+    var post = document.getElementById('post');
+    post.onclick = function () {
+      setCookie('count', getCookie('count')*1+1 );
+      var box = document.getElementById('box');
+      box.innerText = getCookie('count');
+      location.reload()   ;  //页面重新加载
+    }
+
+</script>
+
+</body>
+</html>

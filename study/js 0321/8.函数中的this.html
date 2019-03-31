@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--函数中的this,谁调用这个函数，里面this就指向谁-->
+
+<input type="button" value="我是按钮">
+
+<div>盒子</div>
+
+<script>
+    var btn = document.getElementsByTagName('input')[0];
+    btn.onclick = function () {    //匿名函数
+        alert(this.value)
+    }
+
+    var obj = {
+      innerText: '龙剑有一台战神'
+    }
+
+    var div =document.getElementsByTagName('div')[0];
+    div.onclick = function () {
+      alert(this.innerText)
+    }.bind(obj)
+
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <style type="text/css">
+        /*text-overflow 属性规定当文本溢出包含元素时发生的事情
+        属性值： ellipsis 显示省略符号来代表被修剪的文本。
+                clip 	修剪文本
+
+        overflow 属性值 visible 默认值。内容不会被修剪，会呈现在元素框之外。
+                           hidden	内容会被修剪，并且其余内容是不可见的。
+                           scroll 	内容会被修剪，但是浏览器会显示滚动条以便查看其余的内容。
+                           auto 	如果内容被修剪，则浏览器会显示滚动条以便查看其余的内容。
+
+        =============================================================================
+        white-space 属性设置如何处理元素内的空白。
+        属性值： nowrap 文本不会换行，文本会在在同一行上继续，直到遇到 <br> 标签为止。
+                inherit 规定应该从父元素继承 white-space 属性的值。
+    */
+        /* p{width: 400px;height: 40px;white-space:nowrap;background: pink;overflow: hidden;text-overflow:ellipsis;}
+         p:hover{overflow: visible;}*/
+        p{width: 200px;height: 200px;background: pink;overflow: auto;}
+    </style>
+</head>
+<body>
+<p>取得成功意味着你正在不断地突破极限，这种极限既包括内部的也包括外部的。取得成功意味着你正在不断地突破极限，这种极限既包括内部的也包括外部的。</p>
+</body>
+</html>

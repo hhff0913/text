@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .nav{
+            width: 800px;
+            height: 30px;
+            margin:0 auto;
+        }
+        .nav span{
+            background: #818181;
+            height: 30px;
+            color: white;
+            text-align: center;
+            line-height: 30px;
+            display: inline-block;
+            width: 199px;
+            border-right: 1px solid white;
+        }
+        .box{
+            width: 797px;
+            height: 600px;
+            margin:0 auto;
+            text-align: center;
+            border-left: solid 1px;
+            border-right: solid 1px;
+            border-bottom: solid 1px;
+        }
+        .nav .m{
+            background: red;
+        }
+
+    </style>
+</head>
+<body>
+<div class="nav">
+    <span class="m">马化腾</span><span>马云</span><span>李彦红</span><span>任正非</span>
+</div>
+<div class="box">
+    <div class="wb">马化腾</div>
+    <img src="0.png" alt="">
+</div>
+<script>
+    var span=document.getElementsByTagName('span');
+    var wb=document.getElementsByClassName('wb')[0];
+    var m=document.getElementsByClassName('m')[0];
+    var img=document.getElementsByTagName('img')[0]
+    for(i=0;i<span.length;i++){
+     span[i].onclick=function () {
+         wb.innerText=this.innerText
+         for(j=0;j<span.length;j++){
+             span[j].className=''
+             if(span[j]==this){
+                 img.src=j+'.png'
+             }
+         }
+         this.className='m'
+     }
+
+    }
+</script>
+</body>
+</html>

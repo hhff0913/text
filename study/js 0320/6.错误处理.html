@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    try {
+      showMsg('我要显示信息')
+    } catch(err){
+      // console.log(err.message)
+      // console.log('操作错误，请与管理员联系')
+      throw  new Error('操作错误，请与管理员联系')
+    }
+</script>
+
+
+</body>
+</html>

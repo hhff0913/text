@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        /* ^  以什么开始  */
+         a[href^=http] {
+             border:solid 5px red;
+         }
+        /*  $ 以什么结尾  */
+        a[href$=cn]{
+            background: green;
+        }
+        /* 包涵什么字符 */
+        a[href*=bai] {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+<a href="http://www.baidu.com">百度</a>
+<a href="http://www.jd.cn" target="_blank">京东</a>
+<a href="#">不知道</a>
+
+</body>
+</html>

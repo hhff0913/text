@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div>盒子</div>
+
+<script>
+    var div = document.getElementsByTagName('div')[0];
+    div.onclick = function (event) {
+      //alert(this.innerText)
+      alert(event.currentTarget.innerText)    ;  //获取当前的元素对象，和this一样
+    }
+
+
+</script>
+
+</body>
+</html>

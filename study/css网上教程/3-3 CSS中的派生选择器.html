@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="icon" type="image/icon-x" href="images/logo.png">
+    <title>css中派生选择器</title>
+    <style type="text/css">
+        *{margin: 0px;padding: 0px;}
+        body{background: url(images/3.jpg) no-repeat right top;font-family: 楷体;}
+        /*派生选择器：通过依据元素在其位置的上下文关系来定义样式，你可以使标记更加简洁*/
+        /*  CSS 后代选择器 */
+        div span{font-weight: bold;font-size: 30px;}
+        p span{/*color: red;*/font-weight: bold;}
+        /* span i{color: red;}*/
+        /*子元素选择器 子选择器使用了大于号（子结合符）*/
+        /* div>span{color: green;}*/
+        div>i{color:red;}
+        /*相邻兄弟选择器 相邻兄弟选择器使用了加号（+）*/
+        h1+h2{color: pink;}
+
+
+    </style>
+</head>
+<body>
+<div>
+    <span><i>css</i>中派生选择器</span>
+    <i>子元素选择器 </i>
+</div>
+<p>
+    <span><i>css</i>中派生选择器</span>
+</p>
+<div>
+    <h1>相邻兄弟选择器</h1>
+
+</div>
+<h2>相邻兄弟选择器</h2>
+</body>
+</html>

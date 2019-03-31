@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div{
+            width:200px;
+            height:200px;
+            border:solid 5px red;
+        }
+    </style>
+    <script>
+        window.onload =function () {
+          var div = document.getElementsByTagName('div')[0];
+          /*
+          div.onclick = function() {
+            alert('你点我了')
+          }
+           */
+          div.addEventListener('click',function(){
+            alert('你点我了')
+          })
+        }
+    </script>
+</head>
+<body>
+
+<div>事件监听</div>
+
+
+</body>
+</html>
