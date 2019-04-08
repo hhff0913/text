@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jQuery.js"></script>
+    <script>
+        $(function () {
+          //$('#box').after('<p>我是p标签</p>')
+          $('<p>我是p标签</p>').insertAfter('#box')
+
+          $('#box').before("<p>我是加在前面的p</p>")
+          // 删除标签
+          $('div:last').remove();
+
+          // 清空
+          $('body').empty()
+        })
+
+    </script>
+</head>
+<body>
+<div>第一盒子</div>
+<div id="box">第二盒子</div>
+<div>第三盒子</div>
+</body>
+</html>
