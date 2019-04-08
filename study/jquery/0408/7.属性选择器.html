@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" title="p">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jQuery.js"></script>
+    <script>
+        $(  function() {
+          // 作用到所有有title
+         //$('#box[title]').css('background','blue')
+          // 作用到固定值的
+          //$('[title=我是div]').css('background','red');
+          // 不等某个值
+          //$('[title!=p]').css('border','solid 3px red');
+          // 以什么值开始
+         // $('[class^=m]').css('color','red')
+          // 以什么结束
+          //$('[class$=1]').css('background','orange')
+          // 包涵某个字符的
+         // $('[title*=是]').css('color', 'blue');
+
+          // 多个属性选择器(组合属性选择器)
+          $('[class][id=box][title]').css('color','red')
+
+
+        } )
+    </script>
+</head>
+<body title="p">
+<div id="box" class="box" title="我是盒子">盒子</div>
+<div class="div1" title="我是div">div1</div>
+<p id="pp" class="mybox" title="p">我是p</p>
+
+</body>
+</html>

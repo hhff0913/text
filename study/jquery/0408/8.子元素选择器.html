@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jQuery.js"></script>
+    <script>
+        $(function () {
+          //$('ul >li:first-child').css('background','orange')
+          //$('ul >li:last-child').css('background','orange')
+
+          // 指定第几个
+          // $('ul >li:nth-child(2)').css('background','orange')
+          // 指定奇偶数 even ,odd
+          $('ul >li:nth-child(odd)').css('background','orange')
+
+        })
+
+    </script>
+</head>
+<body>
+<ul>
+    <li>中国</li>
+    <li>美国</li>
+    <li>日本</li>
+    <li>韩国</li>
+    <li>德国</li>
+</ul>
+
+</body>
+</html>

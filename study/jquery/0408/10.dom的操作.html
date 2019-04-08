@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jQuery.js"></script>
+    <script>
+//        window.onload = function () {
+//          var box = document.getElementById('box');
+//          var p = document.createElement('p');
+//          p.innerText = '我是新创建的p'
+//          box.appendChild(p)
+//        }
+        $(function () {
+          // 1.追加一个子标签
+          // $('#box').append('<p>我是新创建标签</p>');
+          // 2.把自己加给另一个父标签
+          //$('<p>我是新创建标签</p>').appendTo('#box')
+          // 3.加在最前面
+         // $('#box').prepend('<span>行内标签</span>')
+
+          $('<span>行内标签</span>').prependTo('#box')
+
+        })
+
+    </script>
+</head>
+<body>
+<div id="box">
+    <div>第一个子标签div</div>
+</div>
+
+
+</body>
+</html>

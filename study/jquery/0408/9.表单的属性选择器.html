@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jQuery.js"></script>
+    <script>
+        $(function () {
+          // 1.选中不可用
+          $('input:disabled').css('background','red');
+          // 2.可用的
+          $(':enabled').css('background','blue')
+          // 3.选中的
+          $('input:checked').css({'width':'100px','height':'100px'})
+          // 4.下拉列表选中的
+          $(':selected').css('background','orange')
+          // 5.选中所有的表单标签
+          $(':input').css('color','red');
+
+        })
+    </script>
+</head>
+<body>
+
+<form action="">
+    <p>
+        用户： <input type="text" disabled>
+    </p>
+    <p>
+        密码： <input type="password">
+    </p>
+    <p>
+        性别： <input type="radio" name="sex" checked>男 <input type="radio" name="sex">女
+    </p>
+    <p>爱好：
+        <input type="checkbox" checked>游戏 <input type="checkbox">逛街 <input type="checkbox" checked>钓鱼 <input type="checkbox">看书
+    </p>
+    <p>
+        城市：
+        <select name="" id="">
+            <option value="">深圳</option>
+            <option value="" selected>东莞</option>
+            <option value="">广州</option>
+        </select>
+    </p>
+    <p>介绍：
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+    </p>
+    <p>上传图片：
+        <input type="file">
+    </p>
+    <p>
+        <input type="reset" value="重置">
+        <input type="button" value="确定">
+        <input type="submit" value="提交">
+        
+    </p>
+</form>
+
+
+</body>
+</html>
