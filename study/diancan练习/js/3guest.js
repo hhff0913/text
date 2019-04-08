@@ -42,19 +42,19 @@ down.onclick=function () {
     xhr.open('post','http://39.108.162.36:8083/CateringSystem1.0/recruitment/catering/addCustomerInfo.do?method=login')
     xhr.setRequestHeader('Content-Type','application/x-www-form-urlencoded')
     xhr.send(
-        'deskId='+getCookie('deskid') +
+        'deskId='+getCookie('deskId') +
         '&peopleNumbers='+people+
         '&callingNumber='+phone+
         '&prepaidPay='+money+
         '&memberId='+getCookie('memberId')+
-        '&memberName='+getCookie('membername')
+        '&memberName='+getCookie('memberName')
     )
     xhr.onreadystatechange=function () {
         if(xhr.readyState==4&&xhr.status==200){
             var text=xhr.responseText
             var json=JSON.parse(text)
             if(json.errCode='000'){
-                location.href='5.html'
+                location.href='4menuclass.html'
             }
             else {
                 alert('保存失败')

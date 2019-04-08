@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script src="jQuery.js"></script>
+
+    <script>
+//        window.onload = function () {
+//          var box = document.getElementById('box');
+//          box.innerText = '我是一个盒子'
+//        }
+        $(function () {
+          var box = $('#box');   // jquery对象
+          var box2 = box[0];
+          box2.innerText = '这还是一个盒子'
+
+         // $('#box').text('这是一个盒子')
+        })
+
+    </script>
+</head>
+<body>
+
+<div id="box">盒子</div>
+
+
+</body>
+</html>

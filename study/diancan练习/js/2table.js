@@ -1,6 +1,10 @@
 /**
  * Created by dell on 2019/3/27.
  */
+var back=document.getElementsByClassName('back')[0];
+back.onclick=function () {
+  window.history.go(-1)
+};
 //获取楼层
 function gal() {
     var xhr= new XMLHttpRequest;
@@ -68,24 +72,32 @@ function ctl(deskId) {
                 // 创建table盒子
                 var table=document.createElement('div');
                 table.className='table';
-                table.setAttribute('czid',tableList[i].deskId)
+                table.setAttribute('czid',tableList[i].deskId);
+                table.setAttribute('fjmc',tableList[i].deskCaption);
+
                 if( tableList[i].deskStatus==1 ){
-                    table.classList.add('openta');
+                    table.classList.add('openda');
                     table.onclick = function () {
                         location.href = '3guest.html'
                         setCookie('deskId',this.getAttribute('czid'))
+                        setCookie('deskCaption',this.getAttribute('fjmc'))
+
                     }
                 }
                 else {
                     if(tableList[i].servedCount>0){
-                        table.classList.add('openda');
                         table.onclick = function () {
-                            location.href = '4.html'
+                            location.href = '5.html'
+                            setCookie('deskId',this.getAttribute('czid'))
+                            setCookie('deskCaption',this.getAttribute('fjmc'))
                         }
                     }
                     else {
+                        table.classList.add('openta');
                         table.onclick=function () {
-                            location.href='5.html'
+                            location.href='4menuclass.html'
+                            setCookie('deskId',this.getAttribute('czid'))
+                            setCookie('deskCaption',this.getAttribute('fjmc'))
                         }
                     }
                 }

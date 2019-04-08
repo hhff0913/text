@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jQuery.js"></script>
+    <script>
+        $(function () {
+          // 子代
+          $('ul > li').css('border-bottom','solid 5px red');
+          $('#parent > div').css('color','red');
+          // 相邻一下个
+          $('ul + div').css('color','blue');
+
+          // 相邻所有的
+          $('ul ~ div').css('background','green')
+        })
+    </script>
+
+</head>
+<body>
+
+<ul>
+    <li>li1</li>
+    <li>li2</li>
+</ul>
+<div id="parent">父系
+    <div>子代
+        <div>
+            后代选择器
+        </div>
+    </div>
+</div>
+<div>p元素</div>
+<div>span元素</div>
+
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jQuery.js"></script>
+    <script>
+        $(function () {
+           $('li:first').css('color','blue')
+          $('li:last').css('color','red')
+          $('li:eq(1)').css('color','yellow')
+          $('li:even').css('background','green')
+
+          $('li:gt(2)').css('border','solid 5px cyan')
+        })
+    </script>
+</head>
+<body>
+
+<ul>
+    <li>中国</li>
+    <li>美国</li>
+    <li>英国</li>
+    <li>日本</li>
+</ul>
+
+</body>
+</html>

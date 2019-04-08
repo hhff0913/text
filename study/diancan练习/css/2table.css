@@ -4,11 +4,18 @@
 }
 /*头部*/
 .head{
+    position: relative;
     background: black;
     color: white;
     height: 40px;
     text-align: center;
     line-height: 40px;
+}
+.head>.back{
+    display: inline-block;
+    position: absolute;
+    left: 10px;
+    color: white;
 }
 /*楼层列表*/
 .lc{
@@ -34,17 +41,17 @@
     display: inline-block;
     width: 90px;
     height: 90px;
-    background: #eaeaea;
+    background:burlywood ;
     border: solid black 1px;
     border-radius: 8px;
     margin: 5px;
     overflow: hidden;
 }
 .tablebox>.openta{
-    background: burlywood;
+    background:#BFEAE5;
 }
 .tablebox>.openda{
-    background: green;
+    background: white ;
 }
 .tablebox>.table>div{
     height: 30px;

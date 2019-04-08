@@ -1,0 +1,230 @@
+* {
+    margin:0;
+    padding:0;
+}
+body {
+    background: #f9f9f9;
+}
+/* 头部 */
+.header {
+    width: 100%;
+    height:44px;
+    line-height:44px;
+    color: white;
+    background: #000;
+    text-align: center;
+    font-size:18px;
+    position: relative;
+}
+.header > .back {
+    font-size:24px;
+    position: absolute;
+    left: 20px;
+
+}
+.header > .order {
+    display: inline-block;
+    width: 100px;
+    height:28px;
+    line-height:28px;
+    text-align: center;
+    background: green;
+    position: absolute ;
+    right:10px;
+    top:8px;
+    border-radius: 6px;
+}
+
+.main {
+    min-height: 480px;
+    position: relative;
+}
+.main > .left {
+     display:inline-block;
+     width: 80px;
+    min-height: 480px;
+    background: linear-gradient( 90deg, #666666,#cccccc,#666666);
+}
+.main > .right {
+    /*float:right;*/
+    width: 100%;
+    min-height: 480px;
+
+    position: absolute;
+    top:0px;
+    left: 90px;
+    /*z-index: -1;*/
+}
+.main > .left > .item {
+    height:50px;
+    line-height:50px;
+    text-align: center;
+    color:white;
+    position: relative;
+}
+.main > .left > .item > .qipao {
+    display: inline-block;
+    width:20px;
+    height:20px;
+    line-height:20px;
+    border-radius: 50%;
+    background: orange;
+    position: absolute;
+    top: 8px;
+    right:10px;
+}
+.main > .left > .active {
+    background: #ccc;
+}
+.main > .left > .item >  .none {
+    display:none;
+}
+
+.menubox {
+    height:80px;
+    margin: 10px 0px;
+    position: relative;
+}
+
+.menubox > .menuname {
+    display:inline-block;
+    width: 120px;
+    height:80px;
+    position: absolute;
+    left:100px;
+    top:0px;
+}
+.menubox > .menuname  > p{
+
+    height:26px;
+    line-height:26px;
+
+}
+
+.menubox > .menuname > .p1 {
+    font-weight:bold;
+    font-size:20px;
+}
+.menubox > .menuname > .p2 {
+    color: #ccc;
+    text-decoration: line-through;
+}
+.menubox > .menuname > .p3 {
+    color: red;
+}
+
+.menubox   .qipao {
+    display: inline-block;
+    width: 24px;
+    height:24px;
+    line-height: 24px;
+    text-align: center;
+    background: orange;
+    color:white;
+    position: absolute;
+    left:50%;
+    top: 30px;
+    border-radius: 50%;
+}
+.menubox    .btn {
+    display: inline-block;
+    width: 30px;
+    height:30px;
+    border:solid 3px #666666;
+    border-radius: 50%;
+    position: absolute;
+    left:80%;
+    top:20px;
+    /*z-index: 1;*/
+}
+.menubox  .selected {
+    background-image: url("../image/selected.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+.menubox   .none {
+    display:none;
+}
+
+.menubox    .btnbox {
+    display: inline-block;
+    width: 100px;
+    height:24px;
+    position: absolute;
+    left:80%;
+    top:20px;
+    /*z-index: 1;*/
+}
+
+.btnbox > .sub {
+    display:inline-block;
+    width:24px;
+    height:24px;
+    line-height:24px;
+    border-radius: 50%;
+    text-align: center;
+    background: #666666;
+    color:white;
+}
+.btnbox > .num {
+    display:inline-block;
+    width:24px;
+    height:24px;
+    line-height:24px;
+
+    text-align: center;
+
+    color:black;
+}
+.btnbox > .add {
+    display:inline-block;
+    width:24px;
+    height:24px;
+    line-height:24px;
+    border-radius: 50%;
+    text-align: center;
+    background: #666666;
+    color:white;
+}
+
+.menubox   .none {
+    display:none;
+}
+
+.mask {
+    position: absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:100%;
+    background: rgba(0,0,0,0.5);
+}
+
+.mask > .keyboard {
+    width:240px;
+    height:300px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    margin-left: -115px;
+    margin-top: -150px;
+}
+
+.mask > .keyboard  > span{
+    display: inline-block;
+    width: 70px;
+    height:70px;
+    line-height:70px;
+    text-align: center;
+    margin: 2px;
+    background: green;
+    border-radius: 50%;
+    color:white;
+    font-size:24px;
+}
+
+.hide {
+    display:none;
+}

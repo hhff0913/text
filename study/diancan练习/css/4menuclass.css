@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-width: 700px;
+}
+/*头部盒子*/
+.topbox{
+    background: #333333;
+    width: 100%;
+    height: 44px;
+    color: white;
+    text-align: center;
+    line-height: 44px;
+    font-size: 18px;
+
+}
+/*后退*/
+.topbox>.back{
+    display: inline-block;
+    position: absolute;
+    left: 10px;
+    color: white;
+}
+/*我的菜单*/
+.topbox>.mymenu{
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    background: green;
+    color: white;
+    border-radius: 6px;
+    line-height: 30px;
+    position: absolute;
+    right: 10px;
+    top:7px;
+}
+/*下面大盒子*/
+.menubox{
+    width: 100%;
+    height: 524px;
+    position: relative;
+}
+/*左边*/
+.menuleft{
+    position: absolute;
+    width: 10%;
+    height:524px ;
+    background: linear-gradient(to right,#d2d2d2,#ededed,#d2d2d2);
+    left: 0px;
+}
+.menuleft>.menuli{
+    height: 50px;
+    text-align: center;
+    position: relative;
+}
+/*选中时的背景*/
+.menuleft>.xz{
+    background: #AFAFB0;
+}
+.menuleft>.menuli>.lei{
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    color: black;
+}
+/*选中时字体颜色*/
+.menuleft>.xz>.lei{
+    color: white;
+}
+
+.menuleft>.menuli>.qipao{
+    display: inline-block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    top: 8px;
+    right: 3px;
+    border-radius: 50%;
+    background: rgba(255,132,0,0.76);
+    color: white;
+    font-size: 12px;
+}
+/*没有数量时隐藏*/
+.menuleft>.menuli>.none{
+    display: none;
+}
+
+/*右边*/
+.menuright{
+    position: absolute;
+    right: 0px;
+    width: 90%;
+    height: 524px;
+    display: inline-block;
+}
+.menubox>.menuright>.menutable{
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+    height: 80px;
+    background: white;
+    position: relative;
+}
+.menubox>.menuright>.menutable>.menucai{
+    position: absolute;
+    display: inline-block;
+    left: 100px;
+    height: 80px;
+    width: 300px;
+}
+.menubox>.menuright>.menutable>.menucai>.dishname{
+    font-weight: bold;
+    font-size: 14px;
+}
+.menubox>.menuright>.menutable>.menucai>.price{
+    text-decoration: line-through;
+    font-size: 12px;
+}
+.menubox>.menuright>.menutable>.menucai>.bargain{
+    font-size: 12px;
+    color: red;
+}
+.menubox>.menuright>.menutable>.quantity{
+    position: absolute;
+    display: inline-block;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 50%;
+    background: rgba(255,132,0,0.76);
+    color: white;
+    font-size: 12px;
+    top: 40px;
+}
+/*气泡没有数量隐藏类名样式*/
+.menubox>.menuright>.menutable>.none{
+    display: none;
+}
+.menubox>.menuright>.menutable>.checked{
+    position: absolute;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: solid 2px #AFAFB0;
+    top: 34px;
+    right: 10px;
+}
+/*选中时背景图片*/
+.menubox>.menuright>.menutable>.active{
+    background: url("../2.png") no-repeat center;
+}
+/*酒水加减样式*/
+.jiushuibox{
+    display: inline-block;
+    width: 80px;
+    height:24px;
+    position: absolute;
+    right:10px ;
+    top: 34px;
+}
+.jiushuibox>.prune{
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background:#E1E3E4;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 24px;
+    font-weight: bold;
+    font-size: 24px;
+    color: #8d8d8d;
+}
+.jiushuibox>.plus{
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background:#E1E3E4;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 24px;
+    font-weight: bold;
+    font-size: 24px;
+    color: #8d8d8d;
+}
+.jiushuibox>.num{
+    display: inline-block;
+    font-size: 18px;
+    margin: 0 2px;
+    width: 20px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+}
+.show{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background:rgba(127,127, 127,0.5) ;
+}
+.none{
+    display: none;
+}
+.show>.jianpan{
+    position: absolute;
+    width: 225px;
+    height: 300px;
+    top: 50%;
+    left: 50%;
+    margin-left: -112px;
+    margin-right: -150px;
+}
+.show>.jianpan>span{
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    margin: 2px;
+    border-radius: 50%;
+    background: green;
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+}
+.show>.jianpan>.disable{
+    background: #8ba0ad;
+}

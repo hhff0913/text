@@ -1,0 +1,64 @@
+* {
+    margin:0;
+    padding:0;
+}
+body {
+    background: #f9f9f9;
+}
+/* 头部 */
+.header {
+    width: 100%;
+    height:44px;
+    line-height:44px;
+    color: white;
+    background: #000;
+    text-align: center;
+    font-size:18px;
+}
+
+.area {
+    height:50px;
+    line-height:50px;
+    background: #999;
+}
+.area > span {
+    display:inline-block;
+    width: 80px;
+    height:50px;
+    color:white;
+    text-align: center;
+    cursor: pointer;
+}
+
+.area > .active {
+    background: #cdcdcd;
+}
+
+.tableBox {
+    text-align: center;
+    margin-top:20px;
+}
+
+.table {
+    display: inline-block;
+    width: 90px;
+    height:90px;
+    background: #eaeaea;
+    border-radius: 8px;
+    border:solid 1px gray;
+    margin:10px;
+    overflow: hidden;
+}
+.table > div {
+    height:30px;
+    line-height:30px;
+
+}
+
+.opened {
+    background: lightgreen;
+}
+
+.ordered {
+    background: lightcoral;
+}
